@@ -6,4 +6,5 @@ const hours = lastMod.getHours();
 const minutes = lastMod.getMinutes();
 const seconds = lastMod.getSeconds();
 lastMod = ` Last Updated: ${month}/${day}/${year} ${hours}:${minutes}:${seconds}`
+console.log(lastMod)
 date.innerHTML = lastMod;
