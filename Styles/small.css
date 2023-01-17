@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px) {
+    
+    header div p{
+      font-size: 0.7em;
+    }
+    
+    footer div p{
+        font-size: 0.7em;
+     
+    }
+    
+    footer p{
+        font-size: 0.7em;
+        line-height: 0px;
+    }
+    header {
+        width: 350px;
+        height: 130px;
+        font-size: 0.8em;
+    }
+    footer{
+        width: 350px;
+        height: 60px;
+        margin-bottom: 12x;
+
+    }
+    img{
+        width: 50%;
+    }
+
+}

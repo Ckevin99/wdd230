@@ -1,0 +1,71 @@
+@media screen and (max-width: 800px){ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    
+}
+div p{
+    color: white;
+    font-size: 1em;
+}
+
+#first {
+    grid-column: 1/2;
+    margin: 10px;
+    background-color: red;
+    text-align: center;
+
+
+
+}
+#first h3{
+    color: blue;
+    background-color: blue;
+    padding: 20px 0px 20px 0px;
+    margin-top: 0px;
+    color: white;
+}
+#second{
+    grid-column: 2/3;
+    margin: 10px;
+    background-color: red;
+    text-align: center;
+
+}
+#second h3{
+
+    background-color: blue;
+    padding: 20px 0px 20px 0px;
+    margin-top: 0px;
+    color: white;
+}
+#third{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin: 10px;
+    background-color: red;
+    text-align: center;
+}
+#third h3{
+    background-color: blue;
+    padding: 20px 0px 20px 0px;
+    margin-top: 0px;
+    color: white;
+}
+img {
+    width: 85%;
+    
+}
+
+footer{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    grid-column: 1/4;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+}

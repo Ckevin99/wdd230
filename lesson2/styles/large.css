@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1,h2,h3,h4,h5, p{
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+
+}
+
+header {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    grid-column: 1/4;
+    border-radius: 5px;
+
+}
+
+body{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    
+}
+div p{
+    color: white;
+    font-size: 1em;
+}
+div {
+    border-radius: 5px;
+}
+
+#first {
+    grid-column: 1/2;
+    margin: 10px;
+    background-color: red;
+    text-align: center;
+    
+
+
+}
+#first h3{
+    color: blue;
+    background-color: blue;
+    padding: 20px 0px 20px 0px;
+    margin-top: 0px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+#second{
+    grid-column: 2/3;
+    margin: 10px;
+    background-color: red;
+    text-align: center;
+
+}
+#second h3{
+
+    background-color: blue;
+    padding: 20px 0px 20px 0px;
+    margin-top: 0px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+#third{
+    grid-column: 3/4;
+    margin: 10px;
+    background-color: red;
+    text-align: center;
+}
+#third h3{
+    background-color: blue;
+    padding: 20px 0px 20px 0px;
+    margin-top: 0px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+img {
+    width: 85%;
+    
+}
+
+footer{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    grid-column: 1/4;
+    border-radius: 5px;
+    margin-top: 20px;
+}

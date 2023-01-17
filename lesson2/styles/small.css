@@ -1,0 +1,33 @@
+@media screen and (max-width: 600px){ 
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+   
+    body{
+        grid-template-columns: 1fr;
+        display: grid;
+        
+    }
+    
+    #first {
+        grid-column: 1/2;
+        margin: 10px;
+        background-color: red;
+        text-align: center;
+    
+    
+    }
+    #second{
+        grid-column: 1/2;
+        margin: 10px;
+        background-color: red;
+        text-align: center;
+    
+    }
+
+    #third{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin: 10px;
+        background-color: red;
+        text-align: center;
+    }
+
