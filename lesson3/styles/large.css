@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+@media screen and (min-width: 840px){
+    
+
+
 
 h1,h2,h3,h4,h5{
     font-family: 'Roboto', 'Open Sans', sans-serif;
@@ -21,7 +24,6 @@ nav {
     text-align: center;
     padding: 20px;
     max-width: 1920px;
- 
     
 }
 nav a {
@@ -103,10 +105,19 @@ table, th, td {
   #persona{
     margin: 0 auto;
   }
+  footer{
+    margin: 0 auto;
+    height: 60px;
+    margin-bottom: 12x;
+    background-color: darkblue;
 
-
-
-
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+}
 
 
 
