@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+
+h1,h2,h3,h4,h5{
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+p, a {
+    font-family: 'Montserrat';
+}
+
+
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: white;
+    border: black solid 5px;
+
+}
+
+nav {
+    background-color: darkblue;
+    text-align: center;
+    padding: 20px;
+    max-width: 1920px;
+ 
+    
+}
+nav a {
+    color: white;
+    font-size: 40px;
+    font-family: bold;
+    text-decoration: none;
+    margin: 0px 50px  0px 50px;
+    border-radius: 5px;
+    
+}
+nav a:hover {
+background-color: #06c799;
+color: darkblue;
+
+}
+h1{
+    text-align: center;
+}
+#designtitle{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+#typograph{
+    grid-column: 1/2;
+    text-align: center;
+}
+#typograph h2{
+    text-align: center;
+}
+#colorschema{
+    grid-column: 2/3;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+#color1{
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
+#color2{
+    background-color: #06c799;
+    text-align: center;
+}
+#color3{
+    background-color: #6bf5ff;
+    text-align: center;
+}
+#color4{
+   background-color:#500202;
+   text-align: center;
+   color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 50px;
+    
+  }
+  th, td {
+    padding: 20px 80px 20px 80px;
+  }
+  #paragraph{
+    background-color: #6bf5ff;
+    border: black solid 2px;
+  } 
+  #purpose{
+    text-align: center;
+  }
+
+  #logo{
+    margin: 0 auto;
+    display: block;
+  }
+  .centertxt{
+    text-align: center;
+  }
+  #persona{
+    margin: 0 auto;
+  }
+
+
+
+
+
+
+
