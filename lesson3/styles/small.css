@@ -58,8 +58,12 @@ h1{
 #colorschema{
     grid-row: 2/3;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px;
+ 
     
+}
+#tablegrid{
+    margin: 10px;
 }
 #color1{
     background-color: darkblue;
@@ -82,15 +86,16 @@ h1{
 
 table, th, td {
     border: 1px solid black;
-    width: 50px;
     
   }
   th, td {
-    padding: 20px 80px 20px 80px;
+    padding: 3px;
   }
   #paragraph{
     background-color: #6bf5ff;
     border: black solid 2px;
+    display: grid;
+    margin: 5px;
   } 
   #purpose{
     text-align: center;
@@ -99,6 +104,7 @@ table, th, td {
   #logo{
     margin: 0 auto;
     display: block;
+    width: 90%;
   }
   .centertxt{
     text-align: center;
