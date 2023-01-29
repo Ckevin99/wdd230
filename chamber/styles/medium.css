@@ -1,5 +1,5 @@
-@media screen and (min-width: 720px) {
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+@media screen and (min-width: 700px) {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
 
 
 h1,h2,h3,h4,h5{
@@ -10,7 +10,7 @@ p, a {
 }
 
 body{
-    max-width: 1000px;
+    max-width: 840px;
     margin: 0 auto;
     border: black solid 2px;
 }
@@ -119,25 +119,26 @@ main{
 }
 #event{
     grid-column: 1/3;
-    grid-row: 4/5;
+    grid-row: 5/6;
     background-color: lightblue;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 10px 0px 10px;
     text-align: center;
 
 }
 #weather{
     grid-column: 3/4;
-    grid-row: 4/5;
+    grid-row: 5/6;
     background-color: lightblue;
     margin: 0px 10px 0px 10px;
     text-align: center;
 }
 #join{
-    grid-column: 1/3;
-    grid-row: 3/4;
+    grid-column: 1/4;
+    grid-row: 4/5;
     background-color: lightblue;
-    margin: 10px 0px 10px 10px;
+    margin: 0px 10px 10px 10px;
     text-align: center;
+    display: grid;
 }
 #news{
     grid-column: 1/4;
@@ -183,8 +184,8 @@ footer{
     grid-template-rows: 1fr 1fr;
     background-color: darkblue;
     justify-content: center;
-    margin-top: -210px;
-    font-size: 20px;
+    margin-top: 10px;
+    
 }
 footer img{
     grid-column: 2/3;
@@ -197,6 +198,7 @@ footer img{
     text-align: center;
     line-height: 12px;
     margin: 10px 40px 10px 10px;
+    
 }
 #contactinfo a{
    text-decoration: none;
