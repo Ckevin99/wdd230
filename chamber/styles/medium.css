@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+@media screen and (min-width: 720px) {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
 
 
 h1,h2,h3,h4,h5{
@@ -9,53 +10,90 @@ p, a {
 }
 
 body{
-    max-width: 1920px;
+    max-width: 1000px;
     margin: 0 auto;
     border: black solid 2px;
 }
 
 header{
     display: grid;
-    grid-template-columns: 100px 1fr 200px;
-    grid-template-rows: 1fr;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 1fr 0px 12px;
     background-color: darkblue;
-    justify-content: center;
+
+    
 
 
 }
 
 nav{
+    grid-column: 1/4;
+    grid-row: 1/3; 
     text-align: center;
-    grid-column: 2/3;
-    padding: 42px 0px 42px 0px;
-    justify-content: space-around;
-    display: flex;
 
-    
 }
-nav a{
-    color: white;
-    padding: 0em 1em 0em 1em;
+.navigation{
+    list-style: none;
+
+}
+
+.navigation button{
+ padding: 0.15em 0.65em 0.15em 0.65em;
+ margin: 30px 0px 40px -40px;
+ font-size: 30px;
+ background-color: rgb(255,255,255,0.0);
+ border: 0.2px solid white;
+ color: white;
+
+}
+.navigation button::before{
+  content: "≡";
+  font-size: 1.1em;
+}
+.navigationopen button::before{
+  content: "X";
+  font-size: 1.1em;
+}
+  
+.navigation li a{
+   display: none; 
+}
+.navigationopen li a{
+  display: none;
+  color: white;
+    padding: 0em 1em 0.2em 1em;
+    margin: 0px 0px 0px -40px;
     text-decoration: none;
     font-size: 30px;
+    display: block;
+    border-top: 1px solid green; 
 }
 
 
 img{
-    padding: 11px;
+    padding: 15px;
     grid-column: 1/2;
+    grid-row: 1/2;
 }
 #socialmedia{
+    text-align: center;
     grid-column: 3/4;
-    padding: 16px 0px 15px 0px;
+    grid-row: 1/2;
+    padding: 5px 10px 10px 20px;
     color: white;
+    display: inline-block;
+
 }
 #socialmedia a{
     color: white;
 }
+#socialmedia a img{
+    padding: 30px 10px 0px 0px;
+}
 #date{
+    margin-top: -14px;
     background-color: #06c799;
-    grid-row: 2/3;
+    grid-row: 3/4;
     grid-column: 1/4;
     text-align: center;
 }
@@ -66,33 +104,32 @@ img{
 }
 main{
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     height: 1100px;
  
     
-
-
 }
 #hero{
-    grid-column: 3/8;
-    grid-row: 1/3;
+    grid-column: 1/4;
+    grid-row: 1/2;
     background-color: lightblue;
-    margin: 10px 0px 0px 10px;
+    margin: 10px 10px 0px 10px;
     text-align: center;
 }
 #event{
     grid-column: 1/3;
+    grid-row: 4/5;
     background-color: lightblue;
-    margin: 10px 0px 0px 10px;
+    margin: 0px 0px 0px 10px;
     text-align: center;
 
 }
 #weather{
-    grid-column: 1/3;
-    grid-row: 2/3;
+    grid-column: 3/4;
+    grid-row: 4/5;
     background-color: lightblue;
-    margin: 10px 0px 0px 10px;
+    margin: 0px 10px 0px 10px;
     text-align: center;
 }
 #join{
@@ -103,53 +140,63 @@ main{
     text-align: center;
 }
 #news{
-    grid-column: 3/8;
-    grid-row: 3/4;
+    grid-column: 1/4;
+    grid-row: 2/3;
     background-color: lightblue;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 10px 10px 10px;
     text-align: center;
 }
 #spotlights{
-    grid-column: 8/10;
-    grid-row: 1/4;
+    grid-column: 1/4;
+    grid-row: 3/4;
     background-color: lightblue;
-    margin: 10px 10px 10px 10px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    margin: 0px 10px 10px 10px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
     display: grid;
 }
 #spot1{
-    margin: 10px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
     border: 2px solid darkblue;
     grid-column: 1/2;
     grid-row: 1/2;
     text-align: center;
 }
 #spot2{
-    margin: 0px 10px 0px 10px;
+    margin: 10px 10px 10px 10px;
     border: 2px solid darkblue;
-    grid-column: 1/2;
-    grid-row: 2/3;
+    grid-column: 2/3;
+    grid-row: 1/2;
     text-align: center;
 }
 #spot3{
-    margin: 0px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
     border: 2px solid darkblue;
-    grid-column: 1/2;
-    grid-row: 3/4;
+    grid-column: 3/4;
+    grid-row: 1/2;
     text-align: center;
+    display: none;
 }
 footer{
     display: grid;
-    grid-template-columns: 340px 1fr 380px;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: darkblue;
     justify-content: center;
+    margin-top: -210px;
+    font-size: 20px;
+}
+footer img{
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 #contactinfo{
     grid-column: 3/4;
+    grid-row: 1/2;
     color: white;
     text-align: center;
+    line-height: 12px;
+    margin: 10px 40px 10px 10px;
 }
 #contactinfo a{
    text-decoration: none;
@@ -163,8 +210,10 @@ footer{
     background-color: lightblue;
  }
 #copyright{
-    grid-column: 2/3;
-    grid-row: 1/2;
+    grid-column: 1/5;
+    grid-row: 2/3;
     text-align: center;
     color: white;
+}
+
 }
