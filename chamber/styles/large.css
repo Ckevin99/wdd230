@@ -263,6 +263,11 @@ nav a:hover{
     border-radius: 7px;
 
 }
+.spotbuttons:hover{
+    transform: scale(1.12);
+    transition: 0.2s;
+
+}
 
 
 }
