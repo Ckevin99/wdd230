@@ -16,7 +16,7 @@ const day = time.getDay();
 const date = time.getDate();
 const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 let dayname = days[day]
-let month = time.getMonth()+1;
+let month = time.getMonth();
 const months = ["January","February","March","April","May","June","July","August","September","October","November","December"]
 
 let monthname = months[month]
@@ -39,6 +39,25 @@ function toggleMenu(){
 }
 const btnham = document.getElementById('btn')
 btnham.onclick = toggleMenu;
+
+//banner
+if (dayname=="Wednesday" ||dayname== "Tuesday"){
+ let banner = document.createElement("h2");
+ let bannerdiv = document.createElement("div");
+ let text = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+ let nav = document.querySelector("nav");
+ banner.innerHTML = text;
+ bannerdiv.appendChild(banner)
+ console.log(banner)
+ bannerdiv.classList.add("banner")
+ nav.appendChild(bannerdiv)
+
+
+
+
+}else{
+  console.log("no");
+}
 
 
 
