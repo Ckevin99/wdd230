@@ -219,7 +219,7 @@ main{
     grid-column: 3/4;
     grid-row: 1/2;
     text-align: center;
-    display: none;
+    display: block;
     color: darkblue;
     font-size: 1.25em;
 }
