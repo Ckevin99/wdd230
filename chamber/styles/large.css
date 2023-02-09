@@ -204,7 +204,7 @@ main{
     grid-column: 1/2;
     grid-row: 3/4;
     text-align: center;
-    display: grid;
+    display: block;
     color: darkblue;
     font-size: 1.25em;
     
