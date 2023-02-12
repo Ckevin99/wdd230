@@ -108,6 +108,7 @@ main{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     max-height: 1850px;
+    
  
     
 }
@@ -135,6 +136,8 @@ main{
     background-color: darkblue;
     color: white;
     border-radius: 7px;
+    margin: 0 auto;
+    
     
 }
 #herojoinus{
@@ -147,6 +150,7 @@ main{
     position: relative;
     top: -230px;
     z-index: 100;
+    
 }
 #event{
     grid-column: 1/3;

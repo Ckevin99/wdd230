@@ -97,7 +97,7 @@ main{
 }
 #hero img{
 
-    margin: -11px 0px 0px -11px;
+    margin: -11px -10px 0px -11px;
     transform: scale(1);
     width: 100%; /* or any custom size */
     height: 100%; 
