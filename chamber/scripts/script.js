@@ -41,7 +41,7 @@ const btnham = document.getElementById('btn')
 btnham.onclick = toggleMenu;
 
 //banner
-if (dayname=="Wednesday" ||dayname== "Tuesday"){
+if (dayname=="Monday" ||dayname== "Tuesday"){
  let banner = document.createElement("h2");
  let bannerdiv = document.createElement("div");
  let text = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."

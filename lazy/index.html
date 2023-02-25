@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Discover</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <h1>Lazy Loading</h1>
+      <picture>
+     <img src="placeholder.png" alt="me" data-src="completed.png">
+    </picture>
+    <picture>
+    <img src="placeholder.png" data-src="completed1.png" alt="ramdomimg" loading="lazy">
+  </picture>
+  <picture>
+    <img src="placeholder.png" data-src="completed2.png" alt="randomimg">
+  </picture>
+    <picture> 
+    <img src="placeholder.png" data-src="completed3.png" alt="randomimg">
+  </picture>
+  <picture>
+    <img src="placeholder.png" data-src="completed4.png" alt="randomimg">
+  </picture>
+  <picture>
+    <img src="placeholder.png" data-src="completed5.png" alt="randomimg"
+         loading="lazy">
+        </picture>
+        
+   </div>
+   <script src="script.js" defer></script>
+  </body>
+</html>
