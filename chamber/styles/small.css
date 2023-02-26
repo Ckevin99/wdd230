@@ -303,5 +303,41 @@ footer img{
 .banner h2{
     color: #6bf5ff;
 }
+#imglist{
+    margin: 0 auto;
+    width: 400px;
+    margin-bottom: 340px;
+}
+#demo, #demo ul{
+    background-color: darkblue;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 3em;
+    color: white;
+    margin: 5px;
+    
+}
+#img1, #img1 img{
 
+    text-align: center;
+}
+
+#img2, #img2 img{
+    text-align: center;
+}
+#img3, #img3 img{
+    text-align: center;
+}
+#img4, #img4 img{
+    text-align: center;
+}
+#img5, #img5 img{
+    text-align: center;
+}
+#discover{
+    background-color: lightblue;
+    margin-bottom: -340px;
+
+}
 

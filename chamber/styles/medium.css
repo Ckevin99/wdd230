@@ -249,6 +249,7 @@ footer img{
     grid-column: 2/3;
     grid-row: 1/2;
 }
+
 #contactinfo{
     grid-column: 3/4;
     grid-row: 1/2;
@@ -268,6 +269,24 @@ footer img{
     grid-row: 2/3;
     text-align: center;
     color: white;
+}
+#imglist{
+    margin: 0 auto;
+    width: 600px;
+    
+}
+#demo, #demo ul{
+    background-color: darkblue;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 3em;
+    color: white;
+    
+}
+#discover{
+    background-color: lightblue;
+    margin-bottom: 0px;
 }
 
 }

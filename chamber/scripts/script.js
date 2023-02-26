@@ -59,5 +59,45 @@ if (dayname=="Monday" ||dayname== "Tuesday"){
   console.log("no");
 }
 
+// lazy loading
+let loadelement =  document.querySelectorAll("img[src-loaded]")
+
+function replaceimg(img) {
+img.setAttribute("src", img.getAttribute("src-loaded"))
+img.onload = () => {
+  img.removeAttribute("src-loaded");
+};
+}
+
+
+if ("IntersectionObserver" in window) {
+  const observer = new IntersectionObserver((items, observer) => {
+    items.forEach((item) => {
+      if (item.isIntersecting) {
+        replaceimg(item.target);
+        observer.unobserve(item.target);
+      }
+    });
+  });
+  loadelement.forEach((img) => {
+    observer.observe(img);
+  });
+} else {
+  loadelement.forEach((img) => {
+    replaceimages(img);
+    
+  });
+}
+
+//website visits
+visit = localStorage.getItem(visits) || 0;
+visit++
+localStorage.setItem(visits, visit)
+document.querySelector("#visits").innerHTML = visit;
+
+
+
+
+
 
 
