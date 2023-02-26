@@ -96,13 +96,10 @@ img{
     grid-column: 1/2;
     grid-row: 1/2;
 }
-img:hover{
-  transform: scale(1.05);
-transition: 0.2s;
     
       
 
-}
+
 #socialmedia{
     text-align: center;
     grid-column: 3/4;
