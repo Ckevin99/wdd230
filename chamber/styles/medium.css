@@ -70,7 +70,7 @@ img{
     grid-row: 1/2;
 }
 img:hover{
-    transform: scale(1.09);
+    transform: scale(1.04);
   transition: 0.2s;
       
         
