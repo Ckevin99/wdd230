@@ -277,7 +277,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    row-gap: 120px 0px 0px 0px;
+
     
 }
 #img1, #img1 img{

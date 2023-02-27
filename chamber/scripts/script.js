@@ -60,12 +60,12 @@ if (dayname=="Monday" ||dayname== "Tuesday"){
 }
 
 // lazy loading
-let loadelement =  document.querySelectorAll("img[src-loaded]")
+let loadelement =  document.querySelectorAll("img[data-src]")
 
 function replaceimg(img) {
-img.setAttribute("src", img.getAttribute("src-loaded"))
+img.setAttribute("src", img.getAttribute("data-src"))
 img.onload = () => {
-  img.removeAttribute("src-loaded");
+  img.removeAttribute("data-src");
 };
 }
 
