@@ -343,3 +343,97 @@ footer img{
 
 }
 
+
+/*       TABLES PLAN             */
+
+table,
+td {
+    background-color: white;
+     border: 1px solid BLUE;
+     border-collapse: collapse;
+     text-align: center;
+     width: 100%;
+     color: black;
+}
+#blacktable{
+  background-color: darkblue;
+}
+
+.ftable{
+  height: 3em;
+  font-weight: bold;
+  color: darkblue;
+  background-color: #06c799;
+}
+
+thead{
+    background-color: darkblue;
+    color: #fff;
+    height: 3em;
+ 
+}
+.feature{
+  font-weight: bold;
+}
+
+
+
+/*        Form planning          */
+
+#centerform{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4%;
+    margin-top: 4%;
+
+}
+
+fieldset{
+    margin: 1.5rem 0;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    padding: 1rem 2%;
+    width: 100%;
+  }
+  form legend {
+    color: darkblue;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+  }
+  
+  form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: darkblue;
+    
+  }
+  
+  form label.top input{
+    display: block;
+    font-size: 1rem;
+    border: solid black 1px;
+    border-radius: 4px;
+    padding: 0.75em;
+    color: blue;
+    width: 100%;
+    max-width: 20rem;
+    background-color: lightblue;
+  }
+  #buttonform{
+    height: 35px;
+    width: 100px;
+    margin-bottom: 300px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    margin-left: 40%;
+    
+  }
+  
+  form label.mid {
+    display: block;
+    padding: 0.5rem 0;
+  }
