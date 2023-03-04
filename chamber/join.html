@@ -18,9 +18,9 @@
           
             <ul class="navigation"> 
              <li><button id="btn"></button></li>   
-            <li><a href="#">Discover</a></li>
+            <li><a href="discover.html">Discover</a></li>
             <li><a href="index.html">Directory</a></li>
-            <li><a href="#">Join</a></li>
+            <li><a href="join.html">Join</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
         </nav>
@@ -35,12 +35,12 @@
     </header>
     <h1 style="text-align: center;">Registration</h1>
     <main id="centerform">
-     <form> 
+     <form method="get" action="Thankyou.html"> 
      <fieldset>
      <legend>Registration</legend>
      <label class="top">Name:<input type="text" name="fname" placeholder="name" required></label>
      <label class="top">Surname:<input type="text" name="lname" placeholder="surname" required></label>
-     <label class="top">Business Position:<input type="text" placeholder="position" pattern="[A-Za-z0-9]{7}" required> </label>
+     <label class="top">Business Position:<input type="text" placeholder="position" pattern="[A-Za-z0-9]{7,}" required> </label>
      <label class="top">Email:<input type="email" placeholder="example@mail.com" required></label>
      <label class="top">Phone:<input type="tel" placeholder="(99)99999-9999" required></label>
      <label class="top">Business Name:<input type="text" required></label>
@@ -52,7 +52,7 @@
      <label class="mid">NP<input type="radio" name="plan"></label>
      <label class="mid">Bronze<input type="radio" name="plan"></label>
      <label class="mid">Silver<input type="radio" name="plan"></label>
-     <label class="mid">Silver<input type="radio" name="plan"></label>
+     <label class="mid">Gold<input type="radio" name="plan"></label>
      <table>
         <thead>
             <tr>
@@ -76,21 +76,21 @@
             <td>&#10004;</td>
           </tr>
            <tr>
-            <td class="feature">Feature 2</td>
-            <td>&#10062;</td>
-            <td>&#10004;</td>
-            <td>&#10004;</td>
-            <td>&#10004;</td>
-          </tr>
-          <tr>
             <td class="feature">Special Trainings</td>
             <td>&#10062;</td>
+            <td>&#10004;</td>
+            <td>&#10004;</td>
+            <td>&#10004;</td>
+          </tr>
+          <tr>
+            <td class="feature">Legal advice</td>
+            <td>&#10062;</td>
             <td>&#10062;</td>
             <td>&#10004;</td>
             <td>&#10004;</td>
           </tr>
           <tr>
-            <td class="feature">Feature 4</td>
+            <td class="feature">Insurances</td>
             <td>&#10062;</td>
             <td>&#10062;</td>
             <td>&#10062;</td>
