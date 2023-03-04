@@ -101,3 +101,11 @@ document.querySelector("#visits").innerHTML = visit;
 
 
 
+//current date to join html
+
+document.querySelector("#hiddendata").innerHTML = time;
+
+
+
+
+
