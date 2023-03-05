@@ -6,7 +6,7 @@
         "phone": "75 99999-9999",
         "membership": "Gold",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/aki.png",
-        "website": "www.site.com"
+        "website": "www.aki.site.com"
       },
       {
         "name": "Eletrotech",
@@ -14,7 +14,7 @@
         "phone": "75 99999-9999",
         "membership": "Gold",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/eletrotech.png",
-        "website": "www.site.com"
+        "website": "www.Eletrotech.site.com"
       },
       {
         "name": "Express",
@@ -22,7 +22,7 @@
         "phone": "75 99999-9999",
         "membership": "Silver",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/express.png",
-        "website": "www.site.com"
+        "website": "www.Express.site.com"
       },
       {
         "name": "Petersonbookstore",
@@ -30,7 +30,7 @@
         "phone": "75 99999-9999",
         "membership": "Silver",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/petersonbookstore.png",
-        "website": "www.site.com"
+        "website": "www.Petersonbookstore.site.com"
       },
       {
         "name": "Foodhouse",
@@ -38,7 +38,7 @@
         "phone": "75 99999-9999",
         "membership": "Silver",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/foodhouse.png",
-        "website": "www.site.com"
+        "website": "www.Foodhouse.site.com"
       },
       {
         "name": "Super Eletronics",
@@ -46,7 +46,7 @@
         "phone": "75 99999-9999",
         "membership": "Bronze",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/supereletronic.png",
-        "website": "www.site.com"
+        "website": "www.SuperEletronicssite.com"
       },
       {
         "name": "Xfitness",
@@ -54,7 +54,7 @@
         "phone": "75 99999-9999",
         "membership": "Bronze",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/xfitness.png",
-        "website": "www.site.com"
+        "website": "www.Xfitness.site.com"
       },
       {
         "name": "Yummy",
@@ -62,7 +62,7 @@
         "phone": "75 99999-9999",
         "membership": "Gold",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/Yummy.png",
-        "website": "www.site.com"
+        "website": "www.Yummysite.com"
       },
       {
         "name": "Careshare",
@@ -70,7 +70,7 @@
         "phone": "75 99999-9999",
         "membership": "Non Profit",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/careshare.png",
-        "website": "www.site.com"
+        "website": "www.Careshare.site.com"
       }
 
     ]
