@@ -258,7 +258,7 @@ footer{
     grid-template-rows: 1fr 1fr;
     background-color: darkblue;
     justify-content: center;
-    margin-top: -295px;
+    margin-top: -260px;
     font-size: 20px;
     font-size: 16px;
 }
@@ -436,4 +436,27 @@ fieldset{
   form label.mid {
     display: block;
     padding: 0.5rem 0;
+  }
+
+  /*Directory specific css*/
+.cards{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(9,1fr);
+    margin: 0 auto;
+    padding-bottom: 325px;
+    max-height: 10000px;
+    text-align: center;
+    gap: 10px;
+
+    
+  }
+  .card{
+    background-color: darkblue;
+    margin: 0 auto;
+    color: white;
+  }
+  .card img{
+    width: 75%;
   }

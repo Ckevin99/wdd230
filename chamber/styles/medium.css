@@ -306,5 +306,26 @@ footer img{
     
   }
 
+  /*Directory specific css*/
+.cards{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin: 0 auto;
+    max-height: 6000px;
+    text-align: center;
+    margin-bottom: -260px;
+    
+  }
+  .card{
+    background-color: darkblue;
+    margin: 0 auto;
+    color: white;
+  }
+  .card img{
+    width: 75%;
+  }
+
 
 }

@@ -383,6 +383,27 @@ fieldset{
     display: block;
     padding: 0.5rem 0;
   }
+/*Directory specific css*/
+.cards{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: 0 auto;
+    padding-bottom: 25px;
+    text-align: center;
+    gap: 10px;
+
+    
+  }
+  .card{
+    background-color: darkblue;
+    margin: 0 auto;
+    color: white;
+  }
+  .card img{
+    width: 75%;
+  }
 
 
 

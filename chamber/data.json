@@ -1,0 +1,76 @@
+
+   [
+      {
+        "name": "Aki",
+        "address": "Rua 29 de Junho,29- Alto do Tancredo",
+        "phone": "75 99999-9999",
+        "membership": "Gold",
+        "imagefile": "http://127.0.0.1:5501/wdd230/chamber/images/aki.png",
+        "website": "www.site.com"
+      },
+      {
+        "name": "Eletrotech",
+        "address": "Alameda Francisco Carreira,13- Ponta Grossa",
+        "phone": "75 99999-9999",
+        "membership": "Gold",
+        "imagefile": "http://127.0.0.1:5501/wdd230/chamber/images/eletrotech.png",
+        "website": "www.site.com"
+      },
+      {
+        "name": "Express",
+        "address": "Rua T,34- Vila Santa Helena",
+        "phone": "75 99999-9999",
+        "membership": "Silver",
+        "imagefile": "http://127.0.0.1:5501/wdd230/chamber/images/express.png",
+        "website": "www.site.com"
+      },
+      {
+        "name": "Petersonbookstore",
+        "address": "Alameda Vinte e Seis,2- Mariana Torres",
+        "phone": "75 99999-9999",
+        "membership": "Silver",
+        "imagefile": "http://127.0.0.1:5501/wdd230/chamber/images/petersonbookstore.png",
+        "website": "www.site.com"
+      },
+      {
+        "name": "Foodhouse",
+        "address": "Avenida Luiz Pellizzari,25- Distrito Industrial",
+        "phone": "75 99999-9999",
+        "membership": "Silver",
+        "imagefile": "http://127.0.0.1:5501/wdd230/chamber/images/foodhouse.png",
+        "website": "www.site.com"
+      },
+      {
+        "name": "Super Eletronics",
+        "address": "Rua A,16- Urlândia",
+        "phone": "75 99999-9999",
+        "membership": "Bronze",
+        "imagefile": "http://127.0.0.1:5501/wdd230/chamber/images/supereletronic.png",
+        "website": "www.site.com"
+      },
+      {
+        "name": "Xfitness",
+        "address": "Rua Alcides Alves de Oliveira,25- Jardins",
+        "phone": "75 99999-9999",
+        "membership": "Bronze",
+        "imagefile": "http://127.0.0.1:5501/wdd230/chamber/images/xfitness.png",
+        "website": "www.site.com"
+      },
+      {
+        "name": "Yummy",
+        "address": "Rua Clélia Augusta,32- Jardim Europa",
+        "phone": "75 99999-9999",
+        "membership": "Gold",
+        "imagefile": "http://127.0.0.1:5501/wdd230/chamber/images/Yummy.png",
+        "website": "www.site.com"
+      },
+      {
+        "name": "Careshare",
+        "address": "Rua Anna Roesler Fendrich,11- Rio Negro",
+        "phone": "75 99999-9999",
+        "membership": "Non Profit",
+        "imagefile": "http://127.0.0.1:5501/wdd230/chamber/images/careshare.png",
+        "website": "www.site.com"
+      }
+
+    ]
