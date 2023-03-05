@@ -9,6 +9,7 @@ function displayProphets(pname){
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let photo = document.createElement('img');
+    let picture = document.createElement('picture')
     let birthdate = document.createElement("p")
     let placeofbirth = document.createElement("p")
 
@@ -17,12 +18,14 @@ function displayProphets(pname){
     placeofbirth.innerHTML =`Birth Place: ${prophet.birthplace}`;
     photo.src= prophet.imageurl;
     birthdate.innerHTML = `Birthdate: ${prophet.birthdate}`
+    photo.setAttribute('loading', 'lazy');
     card.classList.add("card")
     cards.appendChild(card); 
     card.appendChild(h2);
     card.appendChild(birthdate)
     card.appendChild(placeofbirth)
-    card.appendChild(photo)
+    picture.appendChild(photo)
+    card.appendChild(picture)
     
     
 
