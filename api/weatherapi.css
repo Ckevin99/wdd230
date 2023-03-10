@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+div{
+    border: 2px solid darkblue;
+    width: 500px;
+    margin: 0 auto  ;
+    text-align: center;
+}
+h1{
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    text-shadow: 1px 1px;
+
+    
+}
+figcaption{
+  font-size: 30px;
+  font-weight: bold;
+  color: darkblue;
+
+}
+
+
+
