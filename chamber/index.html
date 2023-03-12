@@ -12,7 +12,7 @@
 </head>
 <body>
 <header>
-    <img src="images/logo.webp" alt="logo">
+    <a a href="index.html"><img src="images/logo.webp" alt="logo"></a>
  
     <nav>
       
@@ -50,14 +50,17 @@
     <button class="spotbuttons">Learn more</button>
 </div>
 <div id="weather">
-    <h2>Weather</h2>
-    <label>Temperature:</label><br>
-    <input id="tempinput" size="7"><br>
-    <label>Wind Speed:</label><br>
-    <input id="windinput" size="7"><br>
-    <button id="calculatebutton" onclick="calculatewind()">Calculate</button>
-
-    <p style="font-size: 41px;">&#127780; <span id="windchill">0°</span></p>
+    <h2>Weather</h2> 
+    <div>
+    <figure>
+    <img src="null" alt="" id="weather-icon" />
+    <figcaption></figcption>
+  </figure>
+  <p>Temperature: <span id="current-temp"></span> &deg;F  </p>
+  <p>Wind Speed: <span id="current-windspeed"></span> mph</p>  
+  <p>Wind Chill: <span id="windchill"></span></p>               
+    
+    </div>
 </div>
 <div id="join">
     <button id="joinusbutton">Join Us!</button>
@@ -99,10 +102,10 @@
         <p>+99 99 99999-9999</p>
         <a target="_blank" href="https://www.google.com/maps/@-12.1418719,-38.414776,13.75z">Location</a>
     </div>
-    <p id="copyright">© 2023 Alagoinhas Chamber | Kevin Correia | WDD 230 Project<br><br>Last modification: <span id="lastmod">Undefined</span></p>
+    <p id="copyright">© 2023 Alagoinhas Chamber | Kevin Correia | WDD 230 Project<br><br>Last modification: <span id="lastmod">Undefined</span><br>Visits: <span id="visits">0</span></p>
 </footer>
 
 <script src="scripts/script.js"></script>
-<script src="scripts/windchill.js"></script>
+<script src="scripts/weatherapi.js"></script>
 </body>
 </html>

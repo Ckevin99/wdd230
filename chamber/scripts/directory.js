@@ -1,6 +1,6 @@
 // extract json files and create html.
 
-url = "http://127.0.0.1:5501/wdd230/chamber/data.json"
+url = "https://skill99.github.io/wdd230/chamber/data.json"
 var companiesdata = [];
 let cards = document.querySelector(".cards");
 
