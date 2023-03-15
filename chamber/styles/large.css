@@ -395,7 +395,7 @@ fieldset{
     background-color: lightblue;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: 50px 1fr 1fr;
     margin: 0 auto;
     padding-bottom: 25px;
     text-align: center;
@@ -403,14 +403,55 @@ fieldset{
 
     
   }
+  
+  .cards div{
+    grid-column: 1/4;
+  }
+  .cards button{
+    margin: 10px;
+    width: 45px;
+    height: 35px;
+  }
   .card{
     background-color: darkblue;
     margin: 0 auto;
     color: white;
   }
+  .cardtr{
+    color: white;
+    
+
+
+  }
+  .cardstr{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    text-align: center;
+    gap: 10px;
+    
+    
+    
+  }
+  .cardstr td{
+    max-width:33%;
+    min-width: 25%;
+  }
+  .cardstr button{
+    margin: 10px;
+    width: 45px;
+    height: 35px;
+  }
+  .cardsoff{
+   display: none;
+  }
   .card img{
     width: 75%;
   }
+
 
 
 

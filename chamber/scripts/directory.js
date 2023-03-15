@@ -35,6 +35,32 @@ function displaycompanies(companies){
     card.appendChild(photo);
 
 
+
+    let companynametd = document.createElement('td');
+    let companymembershiptd = document.createElement('td');
+    let websitetd = document.createElement("td");
+    let phonetd = document.createElement("td");
+    let addresstd = document.createElement("td");
+    let listtd = document.createElement("tr");
+
+    companynametd.innerHTML = company.name;
+    companymembershiptd.innerHTML = company.membership;
+    websitetd.innerHTML = company.website;
+    phonetd.innerHTML = company.phone;
+    addresstd.innerHTML = company.address; 
+
+    listtd.appendChild(companynametd);
+    listtd.appendChild(companymembershiptd);
+    listtd.appendChild(phonetd);
+    listtd.appendChild(addresstd);
+    listtd.appendChild(websitetd);
+    listtd.classList.add("cardsoff");
+
+    cards.appendChild(listtd);
+
+
+
+
     
     
 
@@ -51,3 +77,57 @@ function displaycompanies(companies){
     displaycompanies(companiesdata);
 }
 getcompanies()
+
+function opendirect(){
+
+  let directorylist = document.querySelectorAll(".cardsoff");
+  console.log(directorylist);
+  directorylist.forEach((Element) =>{
+  Element.classList.add("card")
+  });
+  directorylist.forEach((Element) =>{
+    Element.classList.remove("cardsoff")
+    });
+
+
+    let tdlist = document.querySelectorAll("tr");
+  tdlist.forEach((Element) =>{
+    Element.classList.add("cardsoff")
+    });
+    tdlist.forEach((Element) =>{
+      Element.classList.remove("cardtr")
+      });
+
+
+      cards.classList.add("cards")
+      cards.classList.remove("cardstr")
+
+
+}
+
+function closedirect(){
+  console.log("close");
+  let directorylist = document.querySelectorAll("section");
+  
+  directorylist.forEach((Element) =>{
+  Element.classList.add("cardsoff")
+  });
+  directorylist.forEach((Element) =>{
+    Element.classList.remove("card")
+    });
+
+  let tdlist = document.querySelectorAll("tr");
+  tdlist.forEach((Element) =>{
+    Element.classList.add("cardtr")
+    });
+    tdlist.forEach((Element) =>{
+      Element.classList.remove("cardsoff")
+      });
+
+      cards.classList.add("cardstr")
+      cards.classList.remove("cards")
+  
+
+    
+
+}

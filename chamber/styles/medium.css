@@ -316,7 +316,7 @@ footer img{
     background-color: lightblue;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: 1fr;
     margin: 0 auto;
     max-height: 6000px;
     text-align: center;
@@ -330,6 +330,38 @@ footer img{
   }
   .card img{
     width: 75%;
+  }
+  .cards div{
+    grid-column: 1/4;
+  }
+  .cardtr{
+    color: white;
+    width: 100%;
+
+
+  }
+  .cardstr{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    text-align: center;
+    gap: 10px;
+  }
+  .cards button{
+    margin: 10px;
+    width: 45px;
+    height: 35px;
+  }
+  .cardstr button{
+    margin: 10px;
+    width: 45px;
+    height: 35px;
+  }
+  .cardsoff{
+   display: none;
   }
 
 
