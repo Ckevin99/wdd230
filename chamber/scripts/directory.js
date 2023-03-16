@@ -3,6 +3,7 @@
 url = "https://skill99.github.io/wdd230/chamber/data.json"
 var companiesdata = [];
 let cards = document.querySelector(".cards");
+let tabletr = document.createElement("table");
 
 function displaycompanies(companies){
    companies.forEach((company) => {
@@ -18,7 +19,7 @@ function displaycompanies(companies){
 
     h2.innerHTML = company.name;
     h3.innerHTML = company.membership;
-    website.innerHTML = company.website;
+    website.innerHTML = `<a href="https:${company.website}">${company.name} website</a>`;
     photo.src= company.imagefile;
 
     phone.innerHTML = company.phone;
@@ -35,7 +36,6 @@ function displaycompanies(companies){
     card.appendChild(photo);
 
 
-    let tabletr = document.createElement("table");
     let companynametd = document.createElement('td');
     let companymembershiptd = document.createElement('td');
     let websitetd = document.createElement("td");
@@ -45,7 +45,7 @@ function displaycompanies(companies){
 
     companynametd.innerHTML = company.name;
     companymembershiptd.innerHTML = company.membership;
-    websitetd.innerHTML = company.website;
+    websitetd.innerHTML = `<a href="https:${company.website}">${company.name} website</a>`;
     phonetd.innerHTML = company.phone;
     addresstd.innerHTML = company.address; 
 
@@ -81,7 +81,7 @@ getcompanies()
 
 function opendirect(){
 
-  let directorylist = document.querySelectorAll(".cardsoff");
+  let directorylist = document.querySelectorAll("section");
   console.log(directorylist);
   directorylist.forEach((Element) =>{
   Element.classList.add("card")

@@ -351,8 +351,8 @@ footer img{
 
 /*       TABLES PLAN             */
 
-table,
-td {
+.tfeature,
+.tfeature td {
     background-color: white;
      border: 1px solid BLUE;
      border-collapse: collapse;

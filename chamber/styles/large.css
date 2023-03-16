@@ -417,39 +417,52 @@ fieldset{
     margin: 0 auto;
     color: white;
   }
-  .cardtr{
-    color: white;
-    margin: 0 auto;
-    
 
-    
-
-
-  }
   .cardstr{
     background-color: lightblue;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    padding-bottom: 25px;
     text-align: center;
-    gap: 5px;
     margin: 0 auto;
   
+  }
+  .cardtr{
+    margin: 0 auto;
+    padding: 0px;
+    
+    
+    
+    
+
+    
+
+
   }
 
   .cardtr td{
     margin: 0 auto;
-  }
-  .cardstr td{
-    max-width:20%;
+
     height: 50px;
     text-align: center;
-    
-    
-
+    color: darkblue;
     
   }
+  .cardtr a{
+   color: lightblue;
+    
+  }
+  
+  .cardtr tr:nth-child(odd) td{
+    background-color: darkblue;
+    color: lightblue;
+  }
+  .cardtr tr:nth-child(even) a{
+    color: darkblue;
+  }
+
+
+
   .cardstr button{
     margin: 10px;
     width: 45px;
