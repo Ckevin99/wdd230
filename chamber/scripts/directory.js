@@ -78,7 +78,8 @@ function displaycompanies(companies){
     displaycompanies(companiesdata);
 }
 getcompanies()
-
+let btnopen = document.getElementById("open");
+let btnclose = document.getElementById("close")
 function opendirect(){
 
   let directorylist = document.querySelectorAll("section");
@@ -100,8 +101,11 @@ function opendirect(){
       });
 
 
-      cards.classList.add("cards")
-      cards.classList.remove("cardstr")
+      cards.classList.add("cards");
+      cards.classList.remove("cardstr");
+
+      btnclose.classList.remove("clicked");
+      btnopen.classList.add("clicked");
 
 
 }
@@ -128,6 +132,9 @@ function closedirect(){
       cards.classList.add("cardstr")
       cards.classList.remove("cards")
   
+
+      btnopen.classList.remove("clicked");
+      btnclose.classList.add("clicked");
 
     
 

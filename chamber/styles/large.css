@@ -442,7 +442,7 @@ fieldset{
 
   .cardtr td{
     margin: 0 auto;
-
+    font-size: 14px;
     height: 50px;
     text-align: center;
     color: darkblue;
@@ -476,9 +476,20 @@ fieldset{
     width: 75%;
   }
 
+  #open:active {
+    transform: scale(0.95);
+    background-color: white;
+  }
 
 
+}
+#close:active {
+    transform: scale(0.95);
+    background-color: white;
 
+}
+.clicked{
+    background-color: white;
 }
 
 

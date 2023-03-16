@@ -482,7 +482,7 @@ fieldset{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     margin: 0 auto;
-    padding-bottom: 25px;
+    padding-bottom: 345px;
     text-align: center;
     gap: 10px;
   }
@@ -493,4 +493,26 @@ fieldset{
   }
   .cardsoff{
    display: none;
+  }
+
+  .cardtr td{
+    margin: 0 auto;
+
+    height: 50px;
+    text-align: center;
+    color: darkblue;
+    font-size: 12px;
+    
+  }
+  .cardtr a{
+   color: lightblue;
+    
+  }
+  
+  .cardtr tr:nth-child(odd) td{
+    background-color: darkblue;
+    color: lightblue;
+  }
+  .cardtr tr:nth-child(even) a{
+    color: darkblue;
   }
