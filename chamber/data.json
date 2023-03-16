@@ -2,7 +2,7 @@
    [
       {
         "name": "Aki",
-        "address": "Rua 29 de Junho,29- Alto do Tancredo",
+        "address": "Rua 29 de Junho, 29- Alto do Tancredo",
         "phone": "75 99999-9999",
         "membership": "Gold",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/aki.png",
@@ -10,7 +10,7 @@
       },
       {
         "name": "Eletrotech",
-        "address": "Alameda Francisco Carreira,13- Ponta Grossa",
+        "address": "Alameda Francisco Carreira, 13- Ponta Grossa",
         "phone": "75 99999-9999",
         "membership": "Gold",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/eletrotech.png",
@@ -18,7 +18,7 @@
       },
       {
         "name": "Express",
-        "address": "Rua T,34- Vila Santa Helena",
+        "address": "Rua T, 34- Vila Santa Helena",
         "phone": "75 99999-9999",
         "membership": "Silver",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/express.png",
@@ -26,7 +26,7 @@
       },
       {
         "name": "Petersonbookstore",
-        "address": "Alameda Vinte e Seis,2- Mariana Torres",
+        "address": "Alameda Vinte e Seis, 2- Mariana Torres",
         "phone": "75 99999-9999",
         "membership": "Silver",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/petersonbookstore.png",
@@ -34,7 +34,7 @@
       },
       {
         "name": "Foodhouse",
-        "address": "Avenida Luiz Pellizzari,25- Distrito Industrial",
+        "address": "Avenida Luiz Pellizzari, 25- Distrito Industrial",
         "phone": "75 99999-9999",
         "membership": "Silver",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/foodhouse.png",
@@ -42,7 +42,7 @@
       },
       {
         "name": "Super Eletronics",
-        "address": "Rua A,16- Urlândia",
+        "address": "Rua A, 16- Urlândia",
         "phone": "75 99999-9999",
         "membership": "Bronze",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/supereletronic.png",
@@ -50,7 +50,7 @@
       },
       {
         "name": "Xfitness",
-        "address": "Rua Alcides Alves de Oliveira,25- Jardins",
+        "address": "Rua Alcides Alves de Oliveira, 25- Jardins",
         "phone": "75 99999-9999",
         "membership": "Bronze",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/xfitness.png",
@@ -58,7 +58,7 @@
       },
       {
         "name": "Yummy",
-        "address": "Rua Clélia Augusta,32- Jardim Europa",
+        "address": "Rua Clélia Augusta, 32- Jardim Europa",
         "phone": "75 99999-9999",
         "membership": "Gold",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/Yummy.png",
@@ -66,7 +66,7 @@
       },
       {
         "name": "Careshare",
-        "address": "Rua Anna Roesler Fendrich,11- Rio Negro",
+        "address": "Rua Anna Roesler Fendrich, 11- Rio Negro",
         "phone": "75 99999-9999",
         "membership": "Non Profit",
         "imagefile": "https://skill99.github.io/wdd230/chamber/images/careshare.png",

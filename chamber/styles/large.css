@@ -419,6 +419,9 @@ fieldset{
   }
   .cardtr{
     color: white;
+    margin: 0 auto;
+    
+
     
 
 
@@ -428,22 +431,30 @@ fieldset{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    margin: 0 auto;
     padding-bottom: 25px;
     text-align: center;
-    gap: 10px;
-    
-    
-    
+    gap: 5px;
+    margin: 0 auto;
+  
+  }
+
+  .cardtr td{
+    margin: 0 auto;
   }
   .cardstr td{
-    max-width:33%;
-    min-width: 25%;
+    max-width:20%;
+    height: 50px;
+    text-align: center;
+    
+    
+
+    
   }
   .cardstr button{
     margin: 10px;
     width: 45px;
     height: 35px;
+    
   }
   .cardsoff{
    display: none;

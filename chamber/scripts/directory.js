@@ -35,7 +35,7 @@ function displaycompanies(companies){
     card.appendChild(photo);
 
 
-
+    let tabletr = document.createElement("table");
     let companynametd = document.createElement('td');
     let companymembershiptd = document.createElement('td');
     let websitetd = document.createElement("td");
@@ -54,9 +54,10 @@ function displaycompanies(companies){
     listtd.appendChild(phonetd);
     listtd.appendChild(addresstd);
     listtd.appendChild(websitetd);
-    listtd.classList.add("cardsoff");
+    tabletr.appendChild(listtd);
+    tabletr.classList.add("cardsoff");
 
-    cards.appendChild(listtd);
+    cards.appendChild(tabletr);
 
 
 
@@ -90,7 +91,7 @@ function opendirect(){
     });
 
 
-    let tdlist = document.querySelectorAll("tr");
+    let tdlist = document.querySelectorAll("table");
   tdlist.forEach((Element) =>{
     Element.classList.add("cardsoff")
     });
@@ -116,7 +117,7 @@ function closedirect(){
     Element.classList.remove("card")
     });
 
-  let tdlist = document.querySelectorAll("tr");
+  let tdlist = document.querySelectorAll("table");
   tdlist.forEach((Element) =>{
     Element.classList.add("cardtr")
     });
