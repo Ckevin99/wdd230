@@ -14,6 +14,7 @@ body{
     max-width: 1000px;
     margin: 0 auto;
     border: black solid 2px;
+   
 }
 
 header{
@@ -91,10 +92,12 @@ nav a:hover{
 }
 
 
-img{
+#icon{
+
     padding: 15px;
     grid-column: 1/2;
     grid-row: 1/2;
+    
 }
     
       
