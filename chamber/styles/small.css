@@ -130,7 +130,7 @@ nav a:hover{
     font-size: 20px;
     color: darkblue;
 }
-main{
+#maingrid{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);
@@ -312,15 +312,39 @@ footer img{
     margin: 0 auto;
     width: 400px;
     margin-bottom: 340px;
+    padding-top: 10px;
 }
 #demo, #demo ul{
     background-color: darkblue;
     list-style: none;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 0.85em;
     line-height: 3em;
     color: white;
     margin: 5px;
+    text-align: center;  
+    
+}
+
+#demo li{
+    margin-left: -41px;
+}
+
+#demo li:nth-child(odd){
+    background-color: green;
+    font-size: 15px;
+    
+    
+}
+#demo h2{
+ text-align: center;  
+ font-family: bold;
+ font-size: 40px;
+ 
+}
+#imglist p{
+    color: darkblue;
+    font-size: 16px;
     
 }
 #img1, #img1 img{
@@ -349,7 +373,10 @@ footer img{
     background-color: lightblue;
     margin-bottom: -340px;
 
-}
+        display: grid;
+    }
+
+
 
 
 /*       TABLES PLAN             */
@@ -515,6 +542,7 @@ fieldset{
   .cardtr tr:nth-child(odd) td{
     background-color: darkblue;
     color: lightblue;
+    
   }
   .cardtr tr:nth-child(even) a{
     color: darkblue;

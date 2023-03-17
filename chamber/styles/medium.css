@@ -105,7 +105,7 @@ img:hover{
     font-size: 20px;
     color: darkblue;
 }
-main{
+#maingrid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -278,6 +278,7 @@ footer img{
     font-weight: bold;
 }
 #imglist{
+    padding-top: 40px;
     margin: 0 auto;
     width: 600px;
     
@@ -286,14 +287,21 @@ footer img{
     background-color: darkblue;
     list-style: none;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1em;
     line-height: 3em;
     color: white;
+    
+}
+#demo li:nth-child(odd){
+    background-color: green;
+    font-size: 20px;
+    
     
 }
 #discover{
     background-color: lightblue;
     margin-bottom: 0px;
+    display: grid;
 }
 
 

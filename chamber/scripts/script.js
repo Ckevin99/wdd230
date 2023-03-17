@@ -90,10 +90,30 @@ if ("IntersectionObserver" in window) {
 }
 
 //website visits
-visit = localStorage.getItem(visits) || 0;
-visit++
-localStorage.setItem(visits, visit)
-document.querySelector("#visits").innerHTML = visit;
+let daylastvisit = localStorage.getItem("daylastvisit") || time.getDate();
+let monthlastvisit = localStorage.getItem("monthlastvisit")|| time.getMonth()+1;
+let yearlastvisit = localStorage.getItem("yearlastvisit")|| time.getFullYear();
+
+
+
+
+
+lastvisit = new Date(`${monthlastvisit}/${daylastvisit}/${yearlastvisit}`)
+console.log(lastvisit)
+var diffence = ((time-lastvisit)/86400000);
+diffence = Math.round(diffence);
+console.log(diffence)
+
+
+
+lastvisit = new Date();
+localStorage.setItem("daylastvisit", time.getDate());
+localStorage.setItem("monthlastvisit", time.getMonth()+1);
+localStorage.setItem("yearlastvisit", time.getFullYear());
+
+document.querySelector("#visits").innerHTML = `${diffence} days ago.`;
+
+
 
 
 
