@@ -1,9 +1,10 @@
 @media screen and (min-width: 900px) {
     
 body{
-    max-width: 1920px;
+    max-width: 3840px;
     margin: 0 auto;
     border: black solid 2px;
+    
 }
 
 header{
@@ -77,7 +78,7 @@ img:hover{
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    max-height: 1100px;
+
     
    
  

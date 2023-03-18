@@ -123,7 +123,7 @@ img:hover{
 }
 #hero img{
 
-    margin: -15px 0px 0px -15px;
+    margin: 0px;
     transform: scale(1);
     width: 100%; /* or any custom size */
     height: 100%; 
@@ -139,6 +139,7 @@ img:hover{
     color: white;
     border-radius: 7px;
     margin: 0 auto;
+    margin-bottom: 15px;
     
     
 }
@@ -161,7 +162,7 @@ img:hover{
     margin: 0px 10px 0px 10px;
     text-align: center;
     color: darkblue;
-    font-size: 1.25em;
+    font-size: 1.05em;
 
 }
 #weather{
@@ -181,7 +182,7 @@ img:hover{
     text-align: center;
     display: grid;
     color: darkblue;
-    font-size: 1.25em;
+    font-size: 1.0em;
 }
 #news{
     grid-column: 1/4;
@@ -190,7 +191,7 @@ img:hover{
     margin: 10px 10px 10px 10px;
     text-align: center;
     color: darkblue;
-    font-size: 1.25em;
+    font-size: 1.0em;
 }
 #spotlights{
     grid-column: 1/4;
@@ -208,7 +209,7 @@ img:hover{
     grid-row: 1/2;
     text-align: center;
     color: darkblue;
-    font-size: 1.25em;
+    font-size: 1.0em;
 }
 #spot2{
     margin: 10px 10px 10px 10px;
@@ -217,7 +218,7 @@ img:hover{
     grid-row: 1/2;
     text-align: center;
     color: darkblue;
-    font-size: 1.25em;
+    font-size: 1.0em;
 }
 #spot3{
     margin: 10px 10px 10px 10px;
@@ -227,15 +228,23 @@ img:hover{
     text-align: center;
     display: block;
     color: darkblue;
-    font-size: 1.25em;
+    font-size: 1.0em;
+    
 }
 .spotbuttons{
     height: 65px;
     width: 160px;
     margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-color: darkblue;
     color: white;
     border-radius: 7px;
+   
+    
+    
+
+    
 
 }
 footer{

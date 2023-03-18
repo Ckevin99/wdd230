@@ -148,7 +148,7 @@ nav a:hover{
 }
 #hero img{
 
-    margin: -11px 0px 0px -11px;
+    margin: 0px;
     transform: scale(1);
     width: 100%; /* or any custom size */
     height: 100%; 
@@ -197,7 +197,7 @@ nav a:hover{
     margin: 10px 10px 0px 10px;
     text-align: center;
     color: darkblue;
-    font-size: 1.25em;
+    font-size: 0.9em;
 
 }
 #weather{
@@ -206,7 +206,7 @@ nav a:hover{
     margin: 10px 10px 0px 10px;
     text-align: center;
     color: darkblue;
-    font-size: 1.25em;
+    font-size: 0.9em;
 }
 #join{
 display: none;
@@ -219,7 +219,7 @@ display: none;
     margin: 10px 10px 10px 10px;
     text-align: center;
     color: darkblue;
-    font-size: 1.25em;
+    font-size: 0.9em;
 }
 #spotlights{
     grid-row: 5/7;
@@ -236,7 +236,7 @@ display: none;
     grid-row: 1/2;
     text-align: center;
     color: darkblue;
-    font-size: 1.25em;
+    font-size: 0.9em;
 }
 #spot2{
     margin: 10px 10px 10px 10px;
@@ -245,7 +245,7 @@ display: none;
     grid-row: 2/3;
     text-align: center;
     color: darkblue;
-    font-size: 1.25em;
+    font-size: 0.9em;
 }
 #spot3{
     margin: 10px 10px 10px 10px;
