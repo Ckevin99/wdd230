@@ -226,7 +226,7 @@ img:hover{
     grid-column: 3/4;
     grid-row: 1/2;
     text-align: center;
-    display: block;
+    display: none;
     color: darkblue;
     font-size: 1.0em;
     
