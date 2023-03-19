@@ -97,6 +97,7 @@ nav a:hover{
     padding: 15px;
     grid-column: 1/2;
     grid-row: 1/2;
+    color: white;
     
 }
     
@@ -136,6 +137,7 @@ nav a:hover{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);
     max-height: 2450px;
+    margin-bottom: -300px;
     
  
     
@@ -265,6 +267,7 @@ footer{
     margin-top: -100px;
     font-size: 20px;
     font-size: 16px;
+    color: white;
 }
 footer img{
     margin: 5px;
@@ -434,7 +437,16 @@ thead{
     align-items: center;
     margin-bottom: 4%;
     margin-top: 4%;
+    margin: 0 auto;
+    width: 300px;
+ 
+    
+    
 
+}
+#formmain{
+    text-align: center;
+    
 }
 
 fieldset{
@@ -446,28 +458,41 @@ fieldset{
   }
   form legend {
     color: darkblue;
-    margin: 0 1rem;
-    padding: 0 0.5rem;
+    margin: 0 0.4rem;
+    padding: 0 0.2rem;
+    text-align: center;
   }
   
   form label.top, form div{
-    display: block;
+ 
     padding-top: 1rem;
     color: darkblue;
     
   }
+  form label.top textarea{
+    width: 100%; 
+    height: 3rem;
+    max-width: 600px;
+    max-height: 200px;
+    
+  }
+
   
   form label.top input{
-    display: block;
+
     font-size: 1rem;
     border: solid black 1px;
     border-radius: 4px;
     padding: 0.75em;
     color: blue;
-    width: 100%;
-    max-width: 20rem;
+    width: 91%;
     background-color: lightblue;
   }
+  form label.top{
+    display: block;
+  }
+ 
+  
   #buttonform{
     height: 35px;
     width: 100px;
@@ -476,7 +501,7 @@ fieldset{
     color: white;
     border-radius: 7px;
     text-align: center;
-    margin-left: 40%;
+    margin-left: 10%;
     
   }
   
@@ -499,10 +524,18 @@ fieldset{
 
     
   }
+  .cards a{
+    color: white;
+    
+
+    
+  }
   .cards button{
     margin: 10px;
     width: 45px;
     height: 35px;
+    background-color: darkblue;
+    color: white;
   }
   .card{
     background-color: darkblue;

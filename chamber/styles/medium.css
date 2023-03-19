@@ -110,6 +110,7 @@ img:hover{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     max-height: 1850px;
+    margin-bottom: 20px;
     
  
     

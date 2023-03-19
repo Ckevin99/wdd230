@@ -21,6 +21,7 @@ function displaycompanies(companies){
     h3.innerHTML = company.membership;
     website.innerHTML = `<a href="https:${company.website}">${company.name} website</a>`;
     photo.src= company.imagefile;
+    photo.alt= "Company Logo";
 
     phone.innerHTML = company.phone;
     address.innerHTML = company.address; 

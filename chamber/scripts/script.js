@@ -34,11 +34,7 @@ const letter = document.querySelector('#btn').textContent;
 hamburg.addEventListener('click', () =>{mynave.classList.toggle('navigationopen')}, false);
 
 
-function toggleMenu(){
-  console.log("xxx"); 
-}
-const btnham = document.getElementById('btn')
-btnham.onclick = toggleMenu;
+
 
 //banner
 if (dayname=="Monday" ||dayname== "Tuesday"){

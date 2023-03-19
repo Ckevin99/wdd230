@@ -4,7 +4,7 @@ const captionDesc = document.querySelector('figcaption');
 const windspeed = document.querySelector('#current-windspeed');
 const windchill = document.querySelector("#windchill");
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Brazil&units=imperial&appid=defd4c25a0effc4ae389640ef95311a1";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=alagoinhas&units=imperial&appid=defd4c25a0effc4ae389640ef95311a1";
 console.log(url);
 
 
