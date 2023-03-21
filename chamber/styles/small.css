@@ -664,4 +664,22 @@ fieldset{
   #contacthero{
     width: 370px;
   }
+  #open{
+    background-color: darkblue;
+
+  }
+  #close{
+    background-color: darkblue;
+
+  }
+
+  #open:active {
+    transform: scale(0.95);
+    background-color: darkblue;
+  }
+
+  #open:active {
+    transform: scale(0.95);
+    background-color: white;
+  }
   
