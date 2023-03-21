@@ -586,12 +586,10 @@ fieldset{
     margin: 10px;
     width: 45px;
     height: 35px;
-    background-color: darkblue;
     color: white;
+
   }
-  .clicked{
-    background-color: white;
-}
+
   .card{
     background-color: darkblue;
     margin: 0 auto;

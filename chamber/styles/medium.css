@@ -415,6 +415,7 @@ margin: 0 auto;
     margin: 10px;
     width: 45px;
     height: 35px;
+    color: white;
   }
   .cardsoff{
    display: none;
@@ -422,6 +423,32 @@ margin: 0 auto;
   #contacthero{
     width: 500px;
   }
+  #open{
+    background-color: darkblue;
+
+  }
+  #close{
+    background-color: darkblue;
+
+  }
+
+  #open:active {
+    transform: scale(0.95);
+    background-color: darkblue;
+  }
+
+  #open:active {
+    transform: scale(0.95);
+    background-color: white;
+  }
+
+
+
+#close:active {
+    transform: scale(0.95);
+    background-color: white;
+
+}
   
 
   

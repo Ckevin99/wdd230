@@ -85,27 +85,24 @@ function opendirect(){
   let directorylist = document.querySelectorAll("section");
   console.log(directorylist);
   directorylist.forEach((Element) =>{
-  Element.classList.add("card")
+  Element.classList.add("card");
   });
   directorylist.forEach((Element) =>{
-    Element.classList.remove("cardsoff")
+    Element.classList.remove("cardsoff");
     });
 
 
     let tdlist = document.querySelectorAll("table");
   tdlist.forEach((Element) =>{
-    Element.classList.add("cardsoff")
+    Element.classList.add("cardsoff");
     });
     tdlist.forEach((Element) =>{
-      Element.classList.remove("cardtr")
+      Element.classList.remove("cardtr");
       });
 
 
       cards.classList.add("cards");
       cards.classList.remove("cardstr");
-
-      btnclose.classList.remove("clicked");
-      btnopen.classList.add("clicked");
 
 
 }
@@ -123,18 +120,14 @@ function closedirect(){
 
   let tdlist = document.querySelectorAll("table");
   tdlist.forEach((Element) =>{
-    Element.classList.add("cardtr")
+    Element.classList.add("cardtr");
     });
     tdlist.forEach((Element) =>{
-      Element.classList.remove("cardsoff")
+      Element.classList.remove("cardsoff");
       });
 
-      cards.classList.add("cardstr")
-      cards.classList.remove("cards")
-  
-
-      btnopen.classList.remove("clicked");
-      btnclose.classList.add("clicked");
+      cards.classList.add("cardstr");
+      cards.classList.remove("cards");
 
     
 

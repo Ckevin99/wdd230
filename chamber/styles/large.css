@@ -529,23 +529,7 @@ fieldset{
   .card img{
     width: 75%;
   }
-  #open:active {
-    transform: scale(0.95);
-    background-color: darkblue;
-  }
-
-  #open:active {
-    transform: scale(0.95);
-    background-color: white;
-  }
-
-
-
-#close:active {
-    transform: scale(0.95);
-    background-color: white;
-
-}
+  
 
 
 
@@ -588,6 +572,7 @@ fieldset{
 #contacthero{
     width: 750px;
   }
+  
   
 
 }
