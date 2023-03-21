@@ -672,11 +672,12 @@ fieldset{
     background-color: darkblue;
 
   }
-
-  #open:active {
+  #close:active {
     transform: scale(0.95);
-    background-color: darkblue;
-  }
+    background-color: white;
+
+}
+
 
   #open:active {
     transform: scale(0.95);
