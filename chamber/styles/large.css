@@ -523,7 +523,7 @@ fieldset{
   }
 
 
-}
+
 #close:active {
     transform: scale(0.95);
     background-color: white;
@@ -554,5 +554,20 @@ fieldset{
   font-weight: bold;
   color: lightblue;
   margin-top: -30px;
+
+}
+
+
+}
+#titlecontact{
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  
+}
+#contactusform{
+  max-width: 700px;
+ 
+}
 
 }

@@ -156,6 +156,8 @@ nav a:hover{
     font-family: bold;
     text-shadow: 1px 1px black;
 }
+
+
 #hero{
     grid-row: 1/2;
     background-color: lightblue;
@@ -477,7 +479,11 @@ thead{
     text-align: center;
     
 }
-#hiddeninput{
+#formmain h1{
+    color: darkblue;
+    background-color: rgb(173, 216, 230, 0.5);
+  }
+#hiddendata{
   display: none;
 }
 
@@ -627,3 +633,4 @@ fieldset{
   .cardtr tr:nth-child(even) a{
     color: darkblue;
   }
+  
