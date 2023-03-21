@@ -75,7 +75,6 @@ function displaycompanies(companies){
     const response = await fetch(url);
     const data = await response.json()
     companiesdata = data;
-    console.log(companiesdata)
     displaycompanies(companiesdata);
 }
 getcompanies()
