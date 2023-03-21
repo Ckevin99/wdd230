@@ -388,8 +388,9 @@ fieldset{
     margin: 1.5rem 0;
     border: 1px solid darkblue;
     border-radius: 10px;
-    padding: 1rem 6%;
     width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
   form legend {
     color: darkblue;
@@ -419,7 +420,7 @@ fieldset{
     color: white;
     border-radius: 7px;
     text-align: center;
-    margin-left: 15%;
+    margin-left: 0%;
     
   }
   
@@ -558,15 +559,16 @@ fieldset{
 }
 
 
-}
+
 #titlecontact{
   text-align: center;
-  background-color: darkblue;
-  color: white;
+  color: darkblue;
+  background-color: rgb(173, 216, 230, 0.5);
   
 }
 #contactusform{
   max-width: 700px;
+  margin: 0 auto;
  
 }
 

@@ -633,4 +633,9 @@ fieldset{
   .cardtr tr:nth-child(even) a{
     color: darkblue;
   }
+  #contactuspage{
+  
+    text-align: center;
+  
+  }
   
