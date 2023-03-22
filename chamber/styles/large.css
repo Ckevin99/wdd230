@@ -9,7 +9,7 @@ body{
 
 header{
     display: grid;
-    grid-template-columns: 100px 1fr 200px;
+    grid-template-columns: 150px 1fr 200px;
     grid-template-rows: 1fr;
     background-color: darkblue;
     justify-content: center;
@@ -38,7 +38,7 @@ nav button{
 .navigation li a{
     padding: 0em 0.1em 0em 0.1em;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 22px;
     list-style: none;
     display: flex;
 }
@@ -78,15 +78,20 @@ img:hover{
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(3, 1fr);
-
-    
-   
- 
-    
-
+    text-align: center;
 
 }
-
+#maingrid h1 {
+    color: darkblue;
+    background-color: rgb(173, 216, 230, 0.5);
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    margin-bottom: -40px;
+    z-index: 10;
+    font-family: bold;
+    text-shadow: 1px 1px black;
+}
 #hero{
     grid-column: 3/8;
     grid-row: 1/3;
@@ -99,7 +104,7 @@ img:hover{
 }
 #hero img{
 
-    margin: -11px -10px 0px -11px;
+    margin: -8px -10px 0px -11px;
     transform: scale(1);
     width: 100%; /* or any custom size */
     height: 100%; 
@@ -138,12 +143,15 @@ img:hover{
     font-size: 1.25em;
 }
 #joinusbutton{
-    height: 75px;
-    width: 180px;
-    margin-top: 70px;
-    background-color: darkblue;
-    color: white;
-    border-radius: 7px;
+ 
+        height: 65px;
+        width: 160px;
+        margin-top: 25px;
+        background-color: darkblue;
+        color: white;
+        border-radius: 7px;
+    
+ 
     
 }
 #herojoinus{
@@ -177,7 +185,7 @@ img:hover{
     grid-column: 8/10;
     grid-row: 1/4;
     background-color: lightblue;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 2px 10px 9px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     display: grid;
@@ -504,6 +512,10 @@ fieldset{
   .card img{
     width: 75%;
   }
+  #open:active {
+    transform: scale(0.95);
+    background-color: darkblue;
+  }
 
   #open:active {
     transform: scale(0.95);
@@ -517,9 +529,7 @@ fieldset{
     background-color: white;
 
 }
-.clicked{
-    background-color: white;
-}
+
 
 
 /*Weather API */

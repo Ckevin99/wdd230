@@ -12,12 +12,14 @@
 </head>
 <body>
 <header>
-    <a id="icon" href="index.html"><img src="images/logo.webp" alt="logo"></a>
- 
+    <div id="icon"><a id="iconlink" href="index.html"><img src="images/logo.webp" alt="Website logo"></a>
+    </div>
+    
     <nav>
       
         <ul class="navigation"> 
-         <li><button id="btn"></button></li>   
+         <li><button type="button" id="btn"> </button></li>   
+         <li><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discover</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
@@ -35,7 +37,9 @@
 </header>
 
 <main id="maingrid">
-<div id="hero">
+
+<div id="hero">    
+    <h1>Alagoinhas Chamber</h1>
     <picture>
     <source media="(min-width: 900px)" srcset="images/wdd230-950.jpg">
     <source media="(max-width: 699px)" srcset="images/wdd230-600.jpg">   
@@ -47,6 +51,7 @@
 <div id="event">
     <h2>Wednesday meeting</h2>
     <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m</p>
+    <img src="images/meeting.png" alt="People meeting"><br>
     <button class="spotbuttons">Learn more</button>
 </div>
 <div id="weather">
@@ -63,12 +68,17 @@
     </div>
 </div>
 <div id="join">
-    <p>Become a member and discover all the benefits it has to offer!</p>
     <button id="joinusbutton">Join Us!</button>
+    <img src="images/join.png" alt="Join in the chamber">
+    <p>Become a member and discover all the benefits it has to offer!</p>
+    
+ 
+ 
     
 </div>
 <div id="news">
     <h2 >News!</h2>
+    <img src="images/news.png" alt="newspaper">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet nunc tempor nisi gravida posuere. Vivamus tempus lorem at fringilla imperdiet. Proin aliquam felis dictum scelerisque ultrices. Donec tellus tortor, maximus luctus lacus at, condimentum aliquet erat. Pellentesque semper aliquam felis convallis rutrum. Phasellus convallis orci et vulputate ultrices. Donec nec mi eget neque varius gravida sit amet sit amet metus. Donec tristique mi ut mauris posuere finibus.</p>
     
 </div>
@@ -76,17 +86,22 @@
     <div id="spot1">
         <h2>Websites</h2>
         <p>Learn how to use a website to improve your sellings and share your content to others</p>
+        <img src="images/iconprogramming.png" alt="Computer Programming"><br>
         <button class="spotbuttons">Learn more</button>
 
     </div>
     <div id="spot2">
         <h2>Business Opportunities</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet nunc tempor </p>
+        <img src="images/business.png" alt="Business man"><br>
+    
+        
         <button class="spotbuttons">Learn more</button>
     </div>
     <div id="spot3">
         <h2>Networking</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet nunc tempor nisi</p>
+        <p>A enviroment </p>
+        <img src="images/networking.png" alt="networking"><br>
         <button class="spotbuttons">Learn more</button>
     </div>
     
@@ -95,13 +110,13 @@
 
 </main>
 <footer>
-    <img src="https://skill99.github.io/wdd230/chamber/images/logo.png" alt="logo">
+    <img src="https://skill99.github.io/wdd230/chamber/images/logo.png" alt="Website logo">
     <div id="contactinfo">
         <p>alagochamber@mail.com</p>
         <p>+99 99 99999-9999</p>
         <a target="_blank" href="https://www.google.com/maps/@-12.1418719,-38.414776,13.75z">Location</a>
     </div>
-    <p id="copyright">© 2023 Alagoinhas Chamber | Kevin Correia | WDD 230 Project<br><br>Last modification: <span id="lastmod">Undefined</span><br><a target="_blank" href="https://openweathermap.org/">Weathermap API</a></p>
+    <p id="copyright">© 2023 Alagoinhas Chamber | Kevin Correia | WDD 230 Project<br><br>Last modification: <span id="lastmod">Undefined</span><br><a target="_blank" href="https://openweathermap.org/">Weathermap API  </a><a target="_blank" href="license.html">| Icons font</a></p>
 </footer>
 
 <script src="scripts/script.js"></script>

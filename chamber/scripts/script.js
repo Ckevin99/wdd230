@@ -14,6 +14,7 @@ document.querySelector("#lastmod").textContent = lastMod;
 const time = new Date();
 const day = time.getDay();
 const date = time.getDate();
+const hours = time.getHours();
 const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 let dayname = days[day]
 let month = time.getMonth();
@@ -22,7 +23,7 @@ const months = ["January","February","March","April","May","June","July","August
 let monthname = months[month]
 const year = time.getFullYear();
 const fulltime = `${dayname}, ${date} ${monthname} ${year}`;
-console.log(fulltime);
+
 document.querySelector("#currentdate").textContent =fulltime;
 
 //Change
@@ -44,7 +45,7 @@ if (dayname=="Monday" ||dayname== "Tuesday"){
  let nav = document.querySelector("nav");
  banner.innerHTML = text;
  bannerdiv.appendChild(banner)
- console.log(banner)
+
  bannerdiv.classList.add("banner")
  nav.appendChild(bannerdiv)
 
@@ -52,7 +53,7 @@ if (dayname=="Monday" ||dayname== "Tuesday"){
 
 
 }else{
-  console.log("no");
+pass
 }
 
 // lazy loading
@@ -84,30 +85,6 @@ if ("IntersectionObserver" in window) {
     
   });
 }
-
-//website visits
-let daylastvisit = localStorage.getItem("daylastvisit") || time.getDate();
-let monthlastvisit = localStorage.getItem("monthlastvisit")|| time.getMonth()+1;
-let yearlastvisit = localStorage.getItem("yearlastvisit")|| time.getFullYear();
-
-
-
-
-
-lastvisit = new Date(`${monthlastvisit}/${daylastvisit}/${yearlastvisit}`)
-console.log(lastvisit)
-var diffence = ((time-lastvisit)/86400000);
-diffence = Math.round(diffence);
-console.log(diffence)
-
-
-
-lastvisit = new Date();
-localStorage.setItem("daylastvisit", time.getDate());
-localStorage.setItem("monthlastvisit", time.getMonth()+1);
-localStorage.setItem("yearlastvisit", time.getFullYear());
-
-document.querySelector("#visits").innerHTML = `${diffence} days ago.`;
 
 
 

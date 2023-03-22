@@ -135,12 +135,12 @@ img:hover{
 #joinusbutton{
     height: 75px;
     width: 180px;
-    margin-top: 70px;
     background-color: darkblue;
     color: white;
     border-radius: 7px;
     margin: 0 auto;
-    margin-bottom: 15px;
+    margin-top: 25px;
+    
     
     
 }
@@ -184,6 +184,12 @@ img:hover{
     display: grid;
     color: darkblue;
     font-size: 1.0em;
+    
+    
+}
+#join img {
+    width: 60px;
+    margin: 0 auto;
 }
 #news{
     grid-column: 1/4;

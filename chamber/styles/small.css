@@ -19,8 +19,8 @@ body{
 
 header{
     display: grid;
-    grid-template-columns: 200px 1fr 175px;
-    grid-template-rows: 1fr 0px 12px;
+    grid-template-columns: 100px 1fr 155px;
+    grid-template-rows: 1fr 1px 12px;
     background-color: darkblue;
 
     
@@ -61,7 +61,7 @@ nav a:hover{
 
 .navigation button{
  padding: 0.15em 0.65em 0.15em 0.65em;
- margin: 27px 0px 40px -70px;
+ margin: 27px 0px 40px -40px;
  font-size: 30px;
  background-color: rgb(255,255,255,0.0);
  border: 0.2px solid white;
@@ -86,7 +86,7 @@ nav a:hover{
     padding: 0em 1em 0.2em 1em;
     margin: 0px 0px 0px -40px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     display: block;
     border-top: 1px solid green; 
 }
@@ -97,8 +97,11 @@ nav a:hover{
     padding: 15px;
     grid-column: 1/2;
     grid-row: 1/2;
+    margin: 0px;
+    z-index: 1;
+}
+#iconlink{
     color: white;
-    
 }
     
       
@@ -142,6 +145,17 @@ nav a:hover{
  
     
 }
+#maingrid h1 {
+    color: darkblue;
+    background-color: rgb(173, 216, 230, 0.5);
+    position: relative;
+    top: 30px;
+    margin: 0 auto;
+    margin-bottom: -40px;
+    z-index: 10;
+    font-family: bold;
+    text-shadow: 1px 1px black;
+}
 #hero{
     grid-row: 1/2;
     background-color: lightblue;
@@ -150,8 +164,7 @@ nav a:hover{
     
 }
 #hero img{
-
-    margin: 0px;
+    margin: 2px 0px 0px 0px;
     transform: scale(1);
     width: 100%; /* or any custom size */
     height: 100%; 
@@ -203,6 +216,10 @@ nav a:hover{
     font-size: 0.9em;
 
 }
+#event img{
+width: 60px;   
+
+}
 #weather{
     grid-row: 3/4;
     background-color: lightblue;
@@ -224,6 +241,9 @@ nav a:hover{
     color: darkblue;
     font-size: 0.9em;
 }
+#news img{
+    width: 60px;
+}
 #spotlights{
     grid-row: 5/7;
     background-color: lightblue;
@@ -231,6 +251,10 @@ nav a:hover{
     grid-template-columns: 1fr;;
     grid-template-rows: repeat(2 , 1fr);
     display: grid;
+}
+#spotlights img{
+    width: 60px;
+
 }
 #spot1{
     margin: 10px 10px 10px 10px;
@@ -309,6 +333,7 @@ footer img{
     grid-column: 1/2;
     grid-row: 1/2;
     background-color: #500202;
+    font-size: 0.9em;
 }
 .banner h2{
     color: #6bf5ff;
@@ -430,6 +455,10 @@ thead{
 
 /*        Form planning          */
 
+#thankyou{
+    text-align: center;
+}
+
 #centerform{
 
     display: flex;
@@ -447,6 +476,9 @@ thead{
 #formmain{
     text-align: center;
     
+}
+#hiddeninput{
+  display: none;
 }
 
 fieldset{
@@ -537,6 +569,9 @@ fieldset{
     background-color: darkblue;
     color: white;
   }
+  .clicked{
+    background-color: white;
+}
   .card{
     background-color: darkblue;
     margin: 0 auto;
