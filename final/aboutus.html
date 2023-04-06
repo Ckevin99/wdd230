@@ -15,7 +15,7 @@
       <img
         id="logo"
         src="images/logo.png"
-        alt="logo"
+        alt="logo webiste"
       />
       <nav>
         <ul id="navlinks">
@@ -27,20 +27,32 @@
         
         
       </nav>
+      <div id="social">
+        <a target="_blank" href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+        <a target="_blank" href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="linkedin"></a>
+        <a target="_blank" href="https://www.instagram.com"><img src="images/instagram.png" alt="instagram"></a>
+      </div>
     </header>
     <main>
     <h1 id="title">Bountiful Foods</h1>
       <div id="aboutus">
-          <div id="div1"><img src="images/grapes.jpg" alt="grapes"></div>
-          <div id="div2"><h2>Our Story</h2>
-            <p>Bountiful Foods is small business specializing in organic, locally grown foods. They are physically located in Carlsbad, California, however, they have many food trucks that cover the coastal area from Los Angeles to San Diego. The company sells fruits and produce directly from the farmers in the area, but also uses some national and international suppliers. The owner-operated company caters to walk in traffic at their storefront in Carlsbad and, of course, their food trucks. They deliver and manage those orders on the phone and via the website. The mission is to provide fresh and healthy food options, including organic, made to order
+          <div id="div1"><picture>
+            <img src="images/placeholder.png" alt="grapes" loaded-src="images/grapes.jpg">
+          </picture></div>
+          <div id="div2"><h2>About us</h2>
+            <p>We are a small business located in Carlsbad, California. we are specialized in organic and locally grown food,  we started to grow and we are offering food trucks ready to order in many places in the coastal area of Los Angeles, and our goal is to provide healthy food options to the region.
              </p></div>
           <div id="div3">
             <h2>historical information</h2>
-            <p>Bountiful Foods is small business specializing in organic, locally grown foods. They are physically located in Carlsbad, California, however, they have many food trucks that cover the coastal area from Los Angeles to San Diego. The company sells fruits and produce directly from the farmers in the area, but also uses some national and international suppliers. The owner-operated company caters to walk in traffic at their storefront in Carlsbad and, of course, their food trucks. They deliver and manage those orders on the phone and via the website. The mission is to provide fresh and healthy food options, including organic, made to order
+            <p>
+              Carlsbad is a tourist city in the state of California, in 1952 it was incopored san diego county. there are beautiful beaches and a rich culinary tradition.
                </p>
           </div>
-          <div id="div4"><img src="images/carlsbadbeach.jpg"></div>    
+          <div id="div4">
+            <picture>
+              <img src="images/placeholder.png" alt="beach" loaded-src="images/carlsbadbeach.jpg">
+            </picture>
+          </div>    
           <div id="googlemap">
             <h3>Google Maps</h3>
             <!--The div element for the map -->
@@ -48,7 +60,7 @@
 
           </div>
           <div id="address"><h2>Contact information</h2>
-          <p>Bountiful Foods is small business specializing in organic, locally grown foods. They are physically located in Carlsbad, California, however,that cover the coastal area from Los Angeles to San Diego. The company sells fruits and produce directly from the farmers in the area, but also uses some national and international suppliers. The owner-operated company caters to walk in traffic at their storefront in Carlsbad and, of course, their food trucks. They deliver and manage those orders on the phone and via the website. The mission is to provide fresh and healthy food options, including organic, made to order, fruit drinks</p></div>
+          <p>Phone: 998 1234-56789 <br>Email: Bountifulfood@mail.com<br><br>Address:<br> 9999 OWENS AVE STE 100 CARLSBAD CA 92008-5517 USA<br></p></div>
       </div>
           
          
@@ -59,10 +71,13 @@
     </main>
 
     <footer>
-    <p id="copy">© 2023 Bountiful Foods | Kevin Correia | WDD 230 Final Project<br><a target="_blank" href="https://openweathermap.org/">Weathermap API</a></p>
+    <p id="copy">© 2023 Bountiful Foods | Kevin Correia | WDD 230 Final Project<br><a target="_blank" href="https://openweathermap.org/">Weathermap API</a><br>Last Update: <span id="lastmod"></span></p>
 
     </footer>
     <script src="scripts/loadmaps.js"></script>
+    <script src="scripts/lazy.js"> defer</script>
+    <script src="scripts/lastmod.js"> defer</script>
+
 
   </body>
 </html>

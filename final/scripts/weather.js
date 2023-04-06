@@ -26,14 +26,17 @@ function getforecastweather(forecast) {
   day1.innerHTML = `<strong>${forecast.list[0].main.temp.toFixed(1)}</strong>`;
   fday1.innerHTML = `<strong>${forecast.list[0].dt_txt.slice(0, 10)}</strong>`;
   iday1.src = `https://openweathermap.org/img/wn/${forecast.list[0].weather[0].icon}@2x.png`;
+  iday1.alt = forecast.list[0].weather[0].description;
 
   day2.innerHTML =  `<strong>${forecast.list[8].main.temp.toFixed(1)}</strong>`;
   fday2.innerHTML = `<strong>${forecast.list[8].dt_txt.slice(0, 10)}</strong>`;
   iday2.src = `https://openweathermap.org/img/wn/${forecast.list[0].weather[0].icon}@2x.png`;
+  iday2.alt = forecast.list[8].weather[0].description;
 
   day3.innerHTML = `<strong>${forecast.list[16].main.temp.toFixed(1)}</strong>`;
   fday3.innerHTML = `<strong>${forecast.list[16].dt_txt.slice(0, 10)}</strong>`;
   iday3.src = `https://openweathermap.org/img/wn/${forecast.list[0].weather[0].icon}@2x.png`;
+  iday3.alt = forecast.list[16].weather[0].description;
 
    
 
@@ -44,6 +47,7 @@ function getweather(weather){
   humidity.innerHTML = `<strong>${weather.main.humidity.toFixed(1)}</strong>`;
   condition.innerHTML = `<strong>${weather.weather[0].description}</strong>`;
   tempicon.src =  `https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`;
+  tempicon.alt = weather.weather[0].description;
 }
 
 
@@ -61,7 +65,6 @@ async function forecastfetch(){
 
     if (response.ok){
     const data = await response.json();
-    console.log(data);
     getforecastweather(data);
     }else{
         throw Error(await response.text());
@@ -78,7 +81,6 @@ async function weatherfetch(){
     const response = await fetch(urlweather);
     if (response.ok){
     const data = await response.json();
-    console.log(data);
     getweather(data);
     }else{
         throw Error(await response.text());

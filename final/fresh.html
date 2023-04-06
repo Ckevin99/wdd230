@@ -15,7 +15,7 @@
       <img
         id="logo"
         src="images/logo.png"
-        alt="logo"
+        alt="logo website"
       />
       <nav>
         <ul id="navlinks">
@@ -27,6 +27,11 @@
         
         
       </nav>
+      <div id="social">
+        <a target="_blank" href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+        <a target="_blank" href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="linkedin"></a>
+        <a target="_blank" href="https://www.instagram.com"><img src="images/instagram.png" alt="instagram"></a>
+      </div>
     </header>
     <main>
         <h1 id="title">Bountiful Foods</h1>
@@ -61,15 +66,23 @@
          
           <fieldset>
          <legend>Drink</legend>
-         <select name="fruit1" id="fruit1">  
-           </select >
-           <select name="fruit2" id="fruit2">
-             </select>
-             <select name="fruit3" id="fruit3">
-               </select>
-           <label>Adicional Information</label>
+         <label><select name="fruit1" id="fruit1"></select ></label>
+         
+         
+          <label> 
+          <select name="fruit2" id="fruit2">
+            </select>
+          </label>
+         <label><select name="fruit3" id="fruit3">
+        </select></label>
+         
+          
+             
+           <label>Adicional Information
+            <br>
              <textarea id="inputarea">
             </textarea>
+          </label>
             <br>
             <button onclick="CheckOrder()">
               Order
@@ -86,9 +99,10 @@
     
 
     <footer>
-    <p id="copy">© 2023 Bountiful Foods | Kevin Correia | WDD 230 Final Project<br><a target="_blank" href="https://openweathermap.org/">Weathermap API</a></p>
+    <p id="copy">© 2023 Bountiful Foods | Kevin Correia | WDD 230 Final Project<br><a target="_blank" href="https://openweathermap.org/">Weathermap API</a><br>Last Update: <span id="lastmod"></span></p>
 
     </footer>
     <script src="scripts/fruits.js" defer></script>
+    <script src="scripts/lastmod.js"> defer</script>
   </body>
 </html>

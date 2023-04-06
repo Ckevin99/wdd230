@@ -211,7 +211,7 @@ width: 35%;
 }
 
 #form{
-  margin: 0px;
+  margin: 50px 100px 150px 100px;
   display: flex;
   justify-content: center;
   text-align: center;

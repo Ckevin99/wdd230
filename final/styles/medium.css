@@ -5,10 +5,12 @@
 
 h1,h2,h3,h4{
   font-family: "poppins","sans-serif";
+  font-size: 1.05em;
   
 }
 p, a{
   font-family: "quicksand";
+  font-size: 1.05em;
 }
 
 
@@ -210,7 +212,7 @@ width: 35%;
 }
 
 #form{
-  margin: 0px;
+  margin: 50px 100px 150px 100px;
   display: flex;
   justify-content: center;
   text-align: center;
