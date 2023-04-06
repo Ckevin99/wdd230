@@ -6,6 +6,7 @@ const form = document.querySelector("#form");
 
 
 
+const formname = document.querySelector("#formname");
 const formimail = document.querySelector("#formimail");
 const formphone = document.querySelector("#formphone");
 const formordetime = document.querySelector("#formordetime");
@@ -15,11 +16,13 @@ const formfruit3 = document.querySelector("#formfruit3");
 const formtotalcarb = document.querySelector("#formtotalcarb");
 const formtotalfat = document.querySelector("#formtotalfat");
 const formtotalsugar = document.querySelector("#formtotalsugar");
+const formtotalprotein = document.querySelector("#formtotalprotein");
 const formtotalcalories = document.querySelector("#formtotalcalories");
 
 
-
-
+const inputname = document.querySelector("#inputname");
+const inputemail = document.querySelector("#inputemail");
+const inputtel = document.querySelector("#inputtel");
 
 
 
@@ -41,13 +44,17 @@ function createlist(fruits){
   });
   
   
-  
 }
 function CheckOrder(){
 
+  calculatenutri();
   form.id = "displaynone";
   
-  calculatenutri()
+  formimail.innerHTML = inputemail.value;
+  formphone.innerHTML = inputtel.value;
+  formname.innerHTML =  inputname.value;
+  
+  
 
   }
 async function calculatenutri(){
@@ -96,16 +103,15 @@ async function calculatenutri(){
     
   }
 
-    console.log(totalprotein);
-    formtotalcarb.innerHTML = totalcarb;
-    formtotalfat.innerHTML = totalfat;
-    formtotalsugar.innerHTML = totalsugar;
-    formtotalcalories.innerHTML = totalcalories;
-
   
  
     
   });
+  formtotalcarb.innerHTML = totalcarb.toFixed(2);
+  formtotalfat.innerHTML = totalfat.toFixed(2);
+  formtotalsugar.innerHTML = totalsugar.toFixed(2);
+  formtotalprotein.innerHTML = totalprotein.toFixed(2);
+  formtotalcalories.innerHTML = totalcalories.toFixed(2);
       
     }else{
         throw Error(await response.text());
