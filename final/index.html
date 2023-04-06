@@ -38,7 +38,7 @@
       <div id="herogrid">
         <div id="hero">
           <picture>
-          <img id="imghero" src="images/placeholder.png" alt="juice" loaded-src="images/hero.jpg" src2="images/blueberries.jpg">
+          <img id="imghero" src="images/placeholder.png" alt="juice" data-loaded="images/hero.jpg" data-2="images/blueberries.jpg">
         </picture>
         
          
@@ -46,8 +46,8 @@
         
         
           <div id="callaction"><a href="fresh.html">Order</a></div>
-          <div id="darrows"><button onclick="rightimg()" >&#8594</button></div>
-          <div id="larrows"><button onclick="leftimg()">&#x2190</button></div>
+          <div id="darrows"><button onclick="rightimg()" >&#8594;</button></div>
+          <div id="larrows"><button onclick="leftimg()">&#x2190;</button></div>
           
         </div>
         
@@ -55,7 +55,7 @@
         
         
         <div id="information"> 
-          <h2>Carlsbad</h2>
+          <h2>Summary information</h2>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
         <div id="totaldrinks"> <h2>
           Total Drinks
@@ -64,15 +64,15 @@
         </div>
         <div id="weather"><h2>Weather</h2>
         <div id="wleft">
-          <p><img id="tempicon"></img></p>
+          <p><img id="tempicon" src="miniplaceholder.png" alt="icon temp"></p>
           <p><span id="condition"></span></p>
-          <strong><p><span id="temperature"></span> °F</p></strong>
+          <p><strong><span id="temperature"></span> °F</strong></p>
           <p><span id="humidity"></span>%</p>
           </div>
         <div id="wright">
-          <div id="day1"><p><span id="fday1">.</span> <br> <span id="tempday1"></span>°F</p><br><img id="iday1"></div>
-          <div id="day2"><p><span id="fday2">.</span> <br> <span id="tempday2"></span>°F</p><br><img id="iday2"></div>
-          <div id="day3"><p><span id="fday3">.</span> <br> <span id="tempday3"></span>°F</p><br><img id="iday3"></div>
+          <div id="day1"><p><span id="fday1">.</span> <br> <span id="tempday1"></span>°F</p><br><img id="iday1" src="miniplaceholder.png" alt="placeholder"></div>
+          <div id="day2"><p><span id="fday2">.</span> <br> <span id="tempday2"></span>°F</p><br><img id="iday2" src="miniplaceholder.png"  alt="placeholder"></div>
+          <div id="day3"><p><span id="fday3">.</span> <br> <span id="tempday3"></span>°F</p><br><img id="iday3" src="miniplaceholder.png"  alt="placeholder"></div>
           </div>
         
         </div>
@@ -81,7 +81,8 @@
     </main>
 
     <footer>
-    <p id="copy">© 2023 Bountiful Foods | Kevin Correia | WDD 230 Final Project<br><a target="_blank" href="https://openweathermap.org/">Weathermap API</a><br>Last Update: <span id="lastmod"></span>
+    <p id="copy">© 2023 Bountiful Foods | Kevin Correia | WDD 230 Final Project | Bountifulfood@mail.com<br><a target="_blank" href="https://openweathermap.org/">Weathermap API</a><br>Last Update: <span id="lastmod"></span>
+</p>
 
     </footer>
     <script src="scripts/weather.js" defer></script>

@@ -1,7 +1,7 @@
-let loadelement =  document.querySelectorAll("img[loaded-src]")
+let loadelement =  document.querySelectorAll("img[data-loaded]")
 
 function replaceimg(img) {
-img.setAttribute("src", img.getAttribute("loaded-src"))
+img.setAttribute("src", img.getAttribute("data-loaded"))
 img.onload = () => {
 };
 }

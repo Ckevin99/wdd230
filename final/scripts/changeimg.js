@@ -2,9 +2,9 @@
 
 function leftimg(){
    let img = document.querySelector("#imghero");
-   img.setAttribute("src", img.getAttribute("src2"));
+   img.setAttribute("src", img.getAttribute("data-2"));
 }
 function rightimg(){
     let img = document.querySelector("#imghero");
-    img.setAttribute("src", img.getAttribute("loaded-src"));
+    img.setAttribute("src", img.getAttribute("data-loaded"));
  }
