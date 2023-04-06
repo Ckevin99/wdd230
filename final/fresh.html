@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<body>
+    <header>
+      <img
+        id="logo"
+        src="images/logo.png"
+        alt="logo"
+      />
+      <nav>
+        <ul id="navlinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fresh.html">Fresh</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+        
+        
+        
+      </nav>
+    </header>
+    <main>
+        <h1 id="title">Bountiful Foods</h1>
+        <div id="displayorder"><h1>Thank you for you order!</h1>
+        <span id="formname"></span>
+        <span id="formimail"></span>
+        <span id="formphone"></span>
+        <span id="formordetime"></span>
+        <span id="formfruit1"></span>
+        <span id="formfruit2"></span>
+        <span id="formfruit3"></span>
+        <span id="formtotalcarb"></span>
+        <span id="formtotalfat"></span>
+        <span id="formtotalprotein"></span>
+        <span id="formtotalsugar"></span>
+        <span id="formtotalcalories"></span>
+        </div>
+          <div id="form">
+            
+          <form> 
+         <fieldset>
+         <legend>Order</legend>
+         <label >Name:<input type="text" name="fname" placeholder="name" required></label>
+         <label>Email:<input type="email" placeholder="example@mail.com" required></label>
+         <label>Phone:<input type="tel" placeholder="(99)99999-9999" required></label>
+         </fieldset>
+          <fieldset>
+         <legend>Drink</legend>
+         <select name="fruit1" id="fruit1">  
+           </select >
+           <select name="fruit2" id="fruit2">
+             </select>
+             <select name="fruit3" id="fruit3">
+               </select>
+           <label>Adicional Information</label>
+             <textarea id="area">
+            </textarea>
+            <br>
+            <button onclick="CheckOrder()">
+              Order
+            </button>
+            
+           
+         </fieldset>
+    
+         </form>  
+          </div>
+    
+        </main>
+    
+    
+
+    <footer>
+    <p id="copy">© 2023 Bountiful Foods | Kevin Correia | WDD 230 Final Project<br><a target="_blank" href="https://openweathermap.org/">Weathermap API</a></p>
+
+    </footer>
+    <script src="scripts/fruits.js" defer></script>
+  </body>
+</html>
