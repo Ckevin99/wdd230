@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bountiful Foods</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     
 </head>
 <body>
@@ -28,29 +30,35 @@
     </header>
     <main>
         <h1 id="title">Bountiful Foods</h1>
-        <div id="displayorder"><h1>Thank you for you order!</h1>
+        <div id="displaynone"><h1>Thank you for you order!</h1>
         <p>Name: <span id="formname"></span></p>
         <p>Mail: <span id="formimail"></span></p>
         <p>Phone: <span id="formphone"></span></p>
-        <h4>Order</h4>
+        <h3>Order</h3>
         <p>Fruits: <span id="formfruit1"></span>,<span id="formfruit2"></span>,<span id="formfruit3"></span></p>
         <p>Carbo: <span id="formtotalcarb"></span> g</p>
         <p>Fat: <span id="formtotalfat"></span> g</p>
         <p>Protein: <span id="formtotalprotein"></span> g</p>
         <p>Sugar: <span id="formtotalsugar"></span> g</p>
         <p>Calories: <span id="formtotalcalories"></span> kcal</p>
+        <h4>Special instructions</h4>
+           <span id="formspecial"></span></p>
         <br>
         <p>Order time: <span id="formordetime"></span></p>
+
+
+
         </div>
           <div id="form">
             
-          <form> 
+          <form action="javascript:void(0);" > 
          <fieldset>
          <legend>Order</legend>
-         <label>Name:<input id="inputname" type="text" placeholder="name" required></label>
-         <label>Email:<input id="inputemail" type="text" placeholder="example@mail.com" required></label>
-         <label>Phone:<input id="inputtel" type="tel" placeholder="(99)99999-9999" required></label>
+         <label >Name:<input id="inputname" type="text" placeholder="name" required></label>
+         <label>Email:<input id="inputemail" type="email" placeholder="example@mail.com" ></label>
+         <label>Phone:<input id="inputtel" type="tel" placeholder="999 9999-99999" required></label>
          </fieldset>
+         
           <fieldset>
          <legend>Drink</legend>
          <select name="fruit1" id="fruit1">  
@@ -60,7 +68,7 @@
              <select name="fruit3" id="fruit3">
                </select>
            <label>Adicional Information</label>
-             <textarea id="area">
+             <textarea id="inputarea">
             </textarea>
             <br>
             <button onclick="CheckOrder()">

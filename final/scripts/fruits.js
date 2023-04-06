@@ -3,6 +3,7 @@ const select1 = document.querySelector("#fruit1");
 const select2 = document.querySelector("#fruit2");
 const select3 = document.querySelector("#fruit3");
 const form = document.querySelector("#form");
+const order = document.querySelector("#displaynone");
 
 
 
@@ -18,11 +19,15 @@ const formtotalfat = document.querySelector("#formtotalfat");
 const formtotalsugar = document.querySelector("#formtotalsugar");
 const formtotalprotein = document.querySelector("#formtotalprotein");
 const formtotalcalories = document.querySelector("#formtotalcalories");
+const formspecial = document.querySelector("#formspecial");
+
+
 
 
 const inputname = document.querySelector("#inputname");
 const inputemail = document.querySelector("#inputemail");
 const inputtel = document.querySelector("#inputtel");
+const inputspecial = document.querySelector("#inputarea");
 
 
 
@@ -46,15 +51,37 @@ function createlist(fruits){
   
 }
 function CheckOrder(){
+try{
+  visit = localStorage.getItem("visits")
+}catch{
+  visit = 0;
+}
+ 
+visit++
+localStorage.setItem("visits", visit);
 
-  calculatenutri();
+
   form.id = "displaynone";
+  order.id = "displayorder";
   
   formimail.innerHTML = inputemail.value;
   formphone.innerHTML = inputtel.value;
   formname.innerHTML =  inputname.value;
+  formspecial.innerHTML = inputspecial.value;
   
   
+  calculatenutri()
+
+let date = new Date()
+const yeardate = date.getFullYear();
+const monthdate = date.getMonth()+1;
+const daydate = date.getDate();
+
+const hoursdate = date.getHours();
+const minutesdate = date.getMinutes();
+const secondsdate = date.getSeconds(); 
+cdate = ` ${monthdate}/${daydate}/${yeardate} ${hoursdate}:${minutesdate}:${secondsdate}`;
+formordetime.innerHTML = cdate;
 
   }
 async function calculatenutri(){

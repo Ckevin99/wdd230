@@ -1,0 +1,370 @@
+h1,h2,h3,h4{
+    font-family: "poppins","sans-serif";
+    font-size: 0.8em;
+    
+  }
+  p, a{
+    font-family: "quicksand";
+    font-size: 0.55em;
+  }
+  
+  
+  
+  header{
+    background-color: #b50000;
+    width: 100%;
+   
+    max-height: 1920px;
+    display: grid;
+    grid-template-rows: 120px;
+    grid-template-columns: 1fr;
+    
+    color: white;
+    
+  }
+  header:hover{
+    display: none;
+    height: 100%;
+    max-height: 1920px;
+    display: grid;
+    grid-template-rows: 120px 1fr;
+    grid-template-columns: 1fr;
+  
+   
+    
+    
+  }
+    
+   
+  
+    
+  nav{
+    padding-top: 0px;
+    align-content: center;
+    
+    
+   
+  }
+  #logo{
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 70px;
+    
+    
+  }
+  body{
+    margin: 0 auto;
+    background-color: #ffff50;
+  
+    
+  
+    
+  }
+  main{
+    grid-column: 1/3;
+    background-color: #ffff50;
+    
+    
+  }
+  #title{
+    text-align: center;
+    color: #b50000;
+    background-color: #60ff34;
+  }
+  #herogrid{
+    background-color: gray;
+    margin: 0 auto;
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    display: grid;
+    max-width: 1000px;
+    color: white;
+    
+  }
+  
+  #hero{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+    justify-content: center;
+    color: darkblue;
+  
+    background-color: #60ff34; 
+   
+    
+    
+  }
+  #hero img{
+    height: 100%;
+    max-width: 100%;
+    
+    
+  
+  }
+  #callaction{
+    grid-column: 1/4;
+    margin: 0 auto;
+    margin-top: -80px;
+  
+  
+  }
+  #callaction a{
+    color: white;
+    background-color: #171068;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+   
+    
+  }
+  #callaction a:hover{
+    color: #60ff34;
+    background-color: #171068;
+    margin: 0 auto;
+    padding: 23px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.2s;
+   
+    
+  }
+  #information{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
+  
+    background-color: white;
+    color: #171068;
+    
+  }
+  #totaldrinks{
+    grid-column: 1/4;
+    grid-row: 3/4;
+   
+  
+    background-color: #171069;
+    text-align: center;
+    color: white;
+    
+  }
+  #weather{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    display:grid;
+  
+    background-color: #b50000;
+     
+  }
+  #weather h3{
+    grid-column: 1/5;
+    
+  }
+  #tempicon{
+    width: 80px;
+  }
+  #wright{
+    grid-column: 3/5;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+  }
+  #wleft{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: -55px;
+   
+  
+    
+  }
+  #day1{
+    grid-column: 1/2;
+  }
+  #iday1{
+  width: 35%;
+  }
+  #day2{
+    grid-column: 2/3;
+  
+  }
+  #iday2{
+    width: 35%;
+  }
+  #day3{
+    grid-column: 3/4;
+  
+  }
+  #iday3{
+    width: 35%;
+  }
+  
+  #form{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  #form label{
+      display: block;
+      padding-top: 1.5rem;
+  
+    }
+    
+    #form input{
+      width: 92%;
+      display: block;
+      border: solid black 1px;
+      padding: 0.85em;
+      color: yellow;
+      background-color: red;
+      
+    }
+  
+  #inputarea{
+    width:300px;
+  }
+  
+  #aboutus{
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    max-height: 2220px;
+    display: grid;
+    margin: 10px;
+    
+   
+  }
+  
+  
+  #div2{
+  
+    grid-row: 2/3;
+    text-align: center;
+    
+  }
+  #div1{
+    text-align: center;
+    grid-row: 1/2;
+    
+  
+  }
+  #div1 img{
+    border: solid 4px red;
+    width: 320px;
+    
+  }
+  #div4{
+  
+    text-align: center;
+    grid-row: 3/4;
+  
+  }
+  #div3{
+  
+    grid-row: 4/5;
+   
+    text-align: center;
+  
+  
+  }
+  #div4 img{
+    border: solid 4px red;
+    width: 320px;
+  }
+  #googlemap{
+    grid-row: 6/7;
+    text-align: center;
+    
+  
+  }
+  #map{
+    margin: 0 auto;
+    height: 260px;
+    width: 320px;
+    border: solid 4px red;
+  }
+  #address{
+    grid-row: 5/6;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #navlinks{
+    list-style: none;
+    margin-right: 40px;
+    line-height: 35px;
+    
+  }
+  #navlinks li a{
+    display: block;
+    text-align: center;
+    margin-top: 1%;
+    text-decoration: none;
+    color: #ffff50;
+    
+    
+    
+    
+  }
+  #navlinks li a:hover{
+    background: #ffff50;
+    color: red;
+    box-shadow: black 2px 2px;
+    border: 20px 20px;
+   
+    
+    
+    
+  }
+  
+  footer{
+    background-color: #b50000;
+    text-align: center;
+    height: 100px;
+    display: grid;
+    grid-column: 1/3;
+    
+  
+  }
+  footer #copy{
+    color: white;
+  
+    
+  }
+  footer #copy a{
+    color: white;
+    font-weight: bold;
+  
+  }
+  #displaynone{
+    display: none;
+  }
+  #displayorder{
+    background-color: #171069;
+    width: 82%;
+    height: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+    
+  }
+  ::placeholder { 
+    color: white;
+  }
