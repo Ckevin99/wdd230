@@ -52,8 +52,6 @@ if (dayname=="Monday" ||dayname== "Tuesday"){
 
 
 
-}else{
-pass
 }
 
 // lazy loading
