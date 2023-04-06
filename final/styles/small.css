@@ -64,7 +64,7 @@ h1,h2,h3,h4{
   }
   #herogrid{
     background-color: gray;
-    margin: 0 auto;
+    margin: 5px auto;
     width: 90%;
     grid-template-rows: repeat(3, 1fr);
     display: grid;
