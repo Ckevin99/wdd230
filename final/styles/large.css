@@ -4,10 +4,12 @@
 
 h1,h2,h3,h4{
   font-family: "poppins","sans-serif";
+  font-size: 1em;
   
 }
 p, a{
   font-family: "quicksand";
+  font-size: 1em;
 }
 
 
